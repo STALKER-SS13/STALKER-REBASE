@@ -3,19 +3,19 @@
 
 /obj/structure/table/stalker/wood
 	desc = "A simple table."
-	icon = 'stalker/icons/structure/stol_stalker.dmi'
+	icon = 'stalker/icons/objects/structures/stol_stalker.dmi'
 	icon_state = "stol"
 	canSmoothWith = list(/obj/structure/table/stalker/wood)
 
 /obj/structure/table/stalker/wood/bar
 	desc = "A homemade bar counter."
-	icon = 'stalker/icons/structure/stol_stalker_bar.dmi'
+	icon = 'stalker/icons/objects/structures/stol_stalker_bar.dmi'
 	icon_state = "bar"
 	canSmoothWith = list(/obj/structure/table/stalker/wood/bar)
 
 /obj/structure/table/stalker/wood/bar100rentgen
 	desc = "A quality bar counter."
-	icon = 'stalker/icons/structure/bartables.dmi'
+	icon = 'stalker/icons/objects/structures/bartables.dmi'
 	icon_state = "table"
 
 /obj/structure/table/stalker/wood/bar100rentgen/Initialize()

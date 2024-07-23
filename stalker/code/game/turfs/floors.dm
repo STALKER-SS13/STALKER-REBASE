@@ -59,7 +59,7 @@
 	opacity = 1
 
 /obj/structure/grille/stalker/beton
-	icon = 'stalker/icons/beton_zabor.dmi'
+	icon = 'stalker/icons/green_zabor.dmi'
 	desc = "Too strong."
 	icon_state = "1"
 	density = 1
@@ -171,11 +171,11 @@ obj/structure/grille/stalker/beton/CanPass(atom/movable/mover, turf/target, heig
 
 /turf/open/stalker/floor/sidor
 	name = "floor"
-	icon = 'stalker/icons/beton.dmi'
+	icon = 'stalker/icons/turfs/walls/beton.dmi'
 	icon_state = "sidorpol"
 
 /obj/machinery/door/unpowered/stalker
-	icon = 'stalker/icons/beton.dmi'
+	icon = 'stalker/icons/turfs/walls/beton.dmi'
 
 /turf/open/stalker/floor/asphalt
 	name = "road"

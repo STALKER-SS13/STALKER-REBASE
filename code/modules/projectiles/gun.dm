@@ -72,11 +72,6 @@
 	/// Cooldown for the visible message sent from gun flipping.
 	COOLDOWN_DECLARE(flip_cooldown)
 
-	//-- STALKER --//
-	var/durability = 100
-	var/damagelose = 0.1
-	var/can_scope = FALSE
-
 /obj/item/gun/Initialize(mapload)
 	. = ..()
 	if(pin)
