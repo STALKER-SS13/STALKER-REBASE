@@ -6348,6 +6348,8 @@
 #include "stalker\code\_DEFINES\profile_values.dm"
 #include "stalker\code\datums\equipment.dm"
 #include "stalker\code\datums\profile.dm"
+#include "stalker\code\datums\stalker_pda\ranking.dm"
+#include "stalker\code\datums\stalker_pda\spda_program.dm"
 #include "stalker\code\game\areas\areas.dm"
 #include "stalker\code\game\machinery\sidormat.dm"
 #include "stalker\code\game\objects\effects\spawns.dm"
@@ -6377,4 +6379,7 @@
 #include "stalker\code\modules\hydroponics\grown\root.dm"
 #include "stalker\code\modules\hydroponics\grown\spices.dm"
 #include "stalker\code\modules\hydroponics\grown\tato.dm"
+#include "stalker\code\modules\mob\dead\new_player\new_player.dm"
+#include "stalker\code\modules\mob\living\carbon\human\human.dm"
+#include "stalker\code\modules\mob\living\carbon\human\human_defines.dm"
 // END_INCLUDE
