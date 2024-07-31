@@ -15,3 +15,14 @@
 	icon = 'stalker/icons/objects/items/food.dmi'
 	icon_state = "canned_vodka"
 	list_reagents = list(/datum/reagent/consumable/ethanol/vodka = 30)
+
+
+/obj/item/reagent_containers/cup/glass/bottle/terragon
+	name = "terragon soda"
+	desc = "Terragon soda in a fancy glass bottle."
+	icon = 'stalker/icons/objects/items/food.dmi'
+	icon_state = "terragon"
+	fill_icon = 'stalker/icons/objects/items/reagent_fillings.dmi'
+	volume = 30
+	fill_icon_thresholds = list(0, 10, 20, 25, 30)
+	list_reagents = list(/datum/reagent/consumable/space_cola = 30)

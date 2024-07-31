@@ -140,3 +140,11 @@
 	pellets = 4
 	variance = 10
 	projectile_type = /obj/projectile/bullet/c500calbuck
+
+/obj/item/ammo_casing/shotgun/c12x70
+	name = "12x70mm buckshot"
+	desc = "A 12x70mm bullet casing."
+	icon_state = "gshell"
+	pellets = 6
+	variance = 5
+	projectile_type = /obj/projectile/bullet/pellet/bullet12x70

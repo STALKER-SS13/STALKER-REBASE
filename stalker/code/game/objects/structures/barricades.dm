@@ -57,8 +57,8 @@
 		/obj/item/food/kolbasa = 60,
 		/obj/item/food/baton = 75,
 		/obj/item/reagent_containers/cup/soda_cans/vodka = 35,
-		/obj/item/ammo_box/stalker/b9x18 = 55,
-		/obj/item/ammo_box/stalker/b12x70 = 40,
+		/obj/item/ammo_box/b9x18 = 55,
+		/obj/item/ammo_box/b12x70 = 40,
 		/obj/item/radio = 20,
 		/obj/item/gun/ballistic/automatic/pistol/pm = 3)
 

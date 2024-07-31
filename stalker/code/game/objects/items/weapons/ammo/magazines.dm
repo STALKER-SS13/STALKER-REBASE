@@ -1,3 +1,8 @@
+
+/*--------------------------*\
+|>>>> EXTERNAL MAGAZINES <<<<|
+\*--------------------------*/
+
 /obj/item/ammo_box/magazine/stalker/m9x18pm
 	name = "pistol magazine (9x18mm)"
 	icon = 'stalker/icons/objects/items/ammo.dmi'
@@ -481,3 +486,19 @@
 	ammo_type = /obj/item/ammo_casing/c500cal
 	caliber = "c500cal"
 	max_ammo = 3
+
+
+
+/*--------------------------*\
+|>>>> INTERNAL MAGAZINES <<<<|
+\*--------------------------*/
+
+/obj/item/ammo_box/magazine/internal/shot/chaser
+	name = "Chaser-13 internal ammo reservoir"
+	ammo_type = /obj/item/ammo_casing/shotgun/c12x70
+	max_ammo = 6
+
+/obj/item/ammo_box/magazine/internal/shot/spas12
+	name = "SPAS-12 internal ammo reservoir"
+	ammo_type = /obj/item/ammo_casing/shotgun/c12x70
+	max_ammo = 8
