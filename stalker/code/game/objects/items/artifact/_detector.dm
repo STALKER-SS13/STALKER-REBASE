@@ -1,7 +1,7 @@
 /obj/item/t_scanner/artifact_detector
 	name = "artifact detector"
 	desc = "The cheapest and least effective detector."
-	icon = 'stalker/icons/objects/items/devices.dmi'
+	icon = 'stalker/icons/obj/item/devices.dmi'
 	base_icon_state = "echo"
 	icon_state = "echo"
 	worn_icon_state = "electronic"

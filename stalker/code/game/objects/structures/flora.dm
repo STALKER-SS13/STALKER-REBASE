@@ -1,31 +1,3 @@
-/obj/structure/flora/stalker
-	name = "bulrush"
-	icon = 'stalker/icons/fallout/flora.dmi'
-
-// Short Grass
-/obj/structure/flora/stalker/smallbush
-	icon_state = "tall_grass_8"
-	layer = 4.01
-	anchored = 1
-	opacity = 1
-
-/obj/structure/flora/stalker/smallbush/Initialize()
-	..()
-	icon_state = "tall_grass_[rand(1,8)]"
-
-// Tall Grass
-/obj/structure/flora/stalker/bush
-	icon_state = "very_tall_grass_8"
-	layer = 4.01
-	anchored = 1
-	opacity = 1
-
-/obj/structure/flora/stalker/bush/Initialize()
-	..()
-	icon_state = "very_tall_grass_[rand(5,8)]"
-
-
-
 /*-------------------*\
 |>>>> Wild Plants <<<<|
 \*-------------------*/
@@ -33,6 +5,7 @@
 /obj/structure/flora/root
 	name = "wild weeds"
 	desc = "A useless weed which serves no purpose but to steal from other plants."
+	icon = 'stalker/icons/obj/structure/flora.dmi'
 	icon_state = "wild_root1"
 	anchored = TRUE
 	density = FALSE

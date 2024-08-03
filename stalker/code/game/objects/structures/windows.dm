@@ -3,19 +3,19 @@
 
 /obj/structure/table/stalker/wood
 	desc = "A simple table."
-	icon = 'stalker/icons/objects/structures/stol_stalker.dmi'
+	icon = 'stalker/icons/obj/structure/stol_stalker.dmi'
 	icon_state = "stol"
 	canSmoothWith = list(/obj/structure/table/stalker/wood)
 
 /obj/structure/table/stalker/wood/bar
 	desc = "A homemade bar counter."
-	icon = 'stalker/icons/objects/structures/stol_stalker_bar.dmi'
+	icon = 'stalker/icons/obj/structure/stol_stalker_bar.dmi'
 	icon_state = "bar"
 	canSmoothWith = list(/obj/structure/table/stalker/wood/bar)
 
 /obj/structure/table/stalker/wood/bar100rentgen
 	desc = "A quality bar counter."
-	icon = 'stalker/icons/objects/structures/bartables.dmi'
+	icon = 'stalker/icons/obj/structure/bartables.dmi'
 	icon_state = "table"
 
 /obj/structure/table/stalker/wood/bar100rentgen/Initialize()
@@ -25,7 +25,7 @@
 /obj/structure/stalker/okno
 	name = "Window"
 	desc = "An old wooden window."
-	icon = 'stalker/icons/decor2.dmi'
+	icon = 'stalker/icons/obj/structure/decor.dmi'
 	pass_flags = LETPASSTHROW
 	var/proj_pass_rate = 40
 	density = 0

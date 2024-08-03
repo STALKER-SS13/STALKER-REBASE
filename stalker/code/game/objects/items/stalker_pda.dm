@@ -1,7 +1,7 @@
 /obj/item/stalker_pda
 	name = "\improper STALKER PDA"
 	desc = "A personal data assistant for all of your digital needs."
-	icon = 'stalker/icons/objects/items/devices.dmi'
+	icon = 'stalker/icons/obj/item/devices.dmi'
 	icon_state = "kpk_off"
 	light_on = FALSE
 	interaction_flags_mouse_drop = NEED_HANDS | ALLOW_RESTING

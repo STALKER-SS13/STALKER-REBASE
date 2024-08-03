@@ -7,7 +7,7 @@
 /obj/item/clothing/suit/hooded/kozhanka
 	name = "leather jacket"
 	desc = "Common garb of a novice stalker. It won’t save you from bullets or anomalies, but it’s still better than being naked."
-	icon = 'stalker/icons/objects/items/clothing/suit.dmi'
+	icon = 'stalker/icons/obj/item/clothing/suit.dmi'
 	worn_icon = 'stalker/icons/mob/clothing/suit.dmi'
 	icon_state = "kozhanka"
 	inhand_icon_state = "det_suit"
@@ -19,7 +19,7 @@
 
 /obj/item/clothing/head/hooded/hozhanka
 	name = "jacket hood"
-	icon = 'stalker/icons/objects/items/clothing/head.dmi'
+	icon = 'stalker/icons/obj/item/clothing/head.dmi'
 	worn_icon = 'stalker/icons/mob/clothing/head.dmi'
 	icon_state = "winterhood_banditka"
 	flags_inv = HIDEHAIR|HIDEEARS
@@ -186,7 +186,7 @@
 /obj/item/clothing/suit/kozhanka
 	name = "leather jacket"
 	desc = "A bare leather jacket from outside of the zone. Has no beneficial properties whatsoever apart of protection from basic elements."
-	icon = 'stalker/icons/objects/items/clothing/suit.dmi'
+	icon = 'stalker/icons/obj/item/clothing/suit.dmi'
 	worn_icon = 'stalker/icons/mob/clothing/suit.dmi'
 	icon_state = "tourist1"
 	inhand_icon_state = "det_suit"
@@ -248,7 +248,7 @@
 /obj/item/clothing/suit/army
 	name = "Army Body Armor"
 	desc = "Standard army body armor issued to all military personnel guarding the perimeter of the Zone. Provides good protection against bullets and melee weapons, absolutely unsuitable for forays deep into the Zone, since it has almost no protection against the effects of anomalous fields."
-	icon = 'stalker/icons/objects/items/clothing/head.dmi'
+	icon = 'stalker/icons/obj/item/clothing/head.dmi'
 	worn_icon = 'stalker/icons/mob/clothing/head.dmi'
 	icon_state = "army_armor1"
 	inhand_icon_state = "armor"

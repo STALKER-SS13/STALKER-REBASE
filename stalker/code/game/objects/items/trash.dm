@@ -1,7 +1,7 @@
 //-- Stalker13 Trash Items --//
 
 /obj/item/trash/stalker
-	icon = 'stalker/icons/objects/items/trash.dmi'
+	icon = 'stalker/icons/obj/item/trash.dmi'
 	var/variants = 1
 
 /obj/item/trash/stalker/Initialize()

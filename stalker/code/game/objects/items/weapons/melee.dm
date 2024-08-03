@@ -7,7 +7,7 @@
 /obj/item/knife/tourist
 	name = "tourist knife"
 	desc = "Cheap knife but good enough for a tourist."
-	icon = 'stalker/icons/objects/items/melee_weapons.dmi'
+	icon = 'stalker/icons/obj/item/melee_weapons.dmi'
 	icon_state = "knife"
 	force = 20
 	throwforce = 15
@@ -22,7 +22,7 @@
 /obj/item/knife/bayonet
 	name = "bayonet"
 	desc = "Dangerous, but bad at butchering mutants."
-	icon = 'stalker/icons/objects/items/melee_weapons.dmi'
+	icon = 'stalker/icons/obj/item/melee_weapons.dmi'
 	icon_state = "bayonet"
 	force = 25
 	throwforce = 20
@@ -37,7 +37,7 @@
 /obj/item/knife/throwing
 	name = "throwing knife"
 	desc = "A small knife which is best thrown rather than used in close combat."
-	icon = 'stalker/icons/objects/items/melee_weapons.dmi'
+	icon = 'stalker/icons/obj/item/melee_weapons.dmi'
 	icon_state = "throwing_knife"
 	force = 8
 	throwforce = 24
@@ -54,7 +54,7 @@
 /obj/item/knife/bowie
 	name = "bowie knife"
 	desc = "Day bow bow ... chicka chi-kow!"
-	icon = 'stalker/icons/objects/items/melee_weapons.dmi'
+	icon = 'stalker/icons/obj/item/melee_weapons.dmi'
 	icon_state = "knife_bowie"
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
@@ -72,7 +72,7 @@
 /obj/item/knife/bolo
 	name = "bolo knife"
 	desc = "A large cutting tool of Filipino origin similar to the machete. It is used particularly in the Philippines, the jungles of Indonesia, Malaysia and Brunei, as well as in the sugar fields of Cuba."
-	icon = 'stalker/icons/objects/items/melee_weapons.dmi'
+	icon = 'stalker/icons/obj/item/melee_weapons.dmi'
 	icon_state = "bolo"
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
@@ -90,7 +90,7 @@
 /obj/item/knife/trench
 	name = "trench knife"
 	desc = "Dangerous, made for the trenches."
-	icon = 'stalker/icons/objects/items/melee_weapons.dmi'
+	icon = 'stalker/icons/obj/item/melee_weapons.dmi'
 	icon_state = "knife_trench"
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
@@ -115,7 +115,7 @@
 /obj/item/knife/machete
 	name = "machete"
 	desc = "Great for hacking your problems away."
-	icon = 'stalker/icons/objects/items/melee_weapons.dmi'
+	icon = 'stalker/icons/obj/item/melee_weapons.dmi'
 	icon_state = "machete"
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
@@ -140,7 +140,7 @@
 /obj/item/melee/pipe
 	name = "metal pipe"
 	desc = "A rusty metal pipe which can be used to beat mutants and stalkers."
-	icon = 'stalker/icons/objects/items/melee_weapons.dmi'
+	icon = 'stalker/icons/obj/item/melee_weapons.dmi'
 	icon_state = "pipe"
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
@@ -157,7 +157,7 @@
 /obj/item/melee/tireiron
 	name = "tire iron"
 	desc = "A rusty metal tire iron which can be used to beat mutants and stalkers. The end is bent and unusable."
-	icon = 'stalker/icons/objects/items/melee_weapons.dmi'
+	icon = 'stalker/icons/obj/item/melee_weapons.dmi'
 	icon_state = "tire_iron"
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
@@ -174,7 +174,7 @@
 /obj/item/melee/largewrench
 	name = "large wrench"
 	desc = "A rusty metal wrench which can be used to beat mutants and stalkers. The end is bent and unusable."
-	icon = 'stalker/icons/objects/items/melee_weapons.dmi'
+	icon = 'stalker/icons/obj/item/melee_weapons.dmi'
 	icon_state = "red_wrench"
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
@@ -191,7 +191,7 @@
 /obj/item/shovel/entrenching_tool
 	name = "entrenching tool"
 	desc = "The most useful tool in the trenches!"
-	icon = 'stalker/icons/objects/items/melee_weapons.dmi'
+	icon = 'stalker/icons/obj/item/melee_weapons.dmi'
 	icon_state = "entrenching_tool"
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
@@ -217,7 +217,7 @@
 /obj/item/hatchet/ancienthatchet
 	name = "ancient hatchet"
 	desc = "An old looking hand axe, still seems sturdy and sharp."
-	icon = 'stalker/icons/objects/items/melee_weapons.dmi'
+	icon = 'stalker/icons/obj/item/melee_weapons.dmi'
 	icon_state = "ancient_hatchet"
 	lefthand_file = 'icons/mob/inhands/equipment/hydroponics_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/hydroponics_righthand.dmi'
@@ -233,6 +233,6 @@
 /obj/item/fireaxe/old
 	name = "old fire axe"
 	desc = "An old looking fire axe axe, still seems sturdy and sharp."
-	icon = 'stalker/icons/objects/items/melee_weapons.dmi'
+	icon = 'stalker/icons/obj/item/melee_weapons.dmi'
 	icon_state = "old_fireaxe"
 	base_icon_state = "old_fireaxe"

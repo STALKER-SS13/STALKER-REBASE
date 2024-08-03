@@ -3,7 +3,7 @@
 /obj/machinery/door/poddoor/sidor
 	name = "door"
 	desc = "A heavy duty blast door that opens mechanically."
-	icon = 'stalker/icons/objects/structures/door_sidor.dmi'
+	icon = 'stalker/icons/obj/structure/door_sidor.dmi'
 	icon_state = "closed"
 	id = null
 
@@ -11,7 +11,7 @@
 /obj/machinery/door/poddoor/gate
 	name = "checkpoint gate"
 	desc = "A heavy gate that opens mechanically, designed to keep the checkpoint safe from wildlife and Stalkers alike."
-	icon = 'stalker/icons/objects/structures/military_gate.dmi'
+	icon = 'stalker/icons/obj/structure/military_gate.dmi'
 	icon_state = "closed"
 	id = 333
 	bound_width = 96

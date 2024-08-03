@@ -1,7 +1,7 @@
 /obj/machinery/stove/barrelstove
 	name = "barrel stove"
 	desc = "You'd think this thing would be more useful in here."
-	icon = 'stalker/icons/objects/structures/stoves.dmi'
+	icon = 'stalker/icons/obj/structure/stoves.dmi'
 	icon_state = "barrelstove"
 	base_icon_state = "barrelstove"
 	circuit = null
@@ -9,7 +9,7 @@
 /obj/machinery/stove/potbelly
 	name = "potbelly stove"
 	desc = "You'd think this thing would be more useful in here."
-	icon = 'stalker/icons/objects/structures/stoves.dmi'
+	icon = 'stalker/icons/obj/structure/stoves.dmi'
 	icon_state = "potbelly"
 	base_icon_state = "potbelly"
 	circuit = null
@@ -18,9 +18,9 @@
 
 
 /obj/machinery/campfire
-	name = "Campfire"
+	name = "campfire"
 	desc = "A barrel with a couple of logs inside it. If you light it, you can heal by sitting near it."
-	icon = 'stalker/icons/objects/structures/stoves.dmi'
+	icon = 'stalker/icons/obj/structure/stoves.dmi'
 	icon_state = "campfire0"
 	anchored = 1
 	var/firecolor = "#FFAA33"
