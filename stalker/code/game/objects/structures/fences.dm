@@ -12,10 +12,19 @@
 	anchored = TRUE
 	layer = CLOSED_DOOR_LAYER
 	resistance_flags = INDESTRUCTIBLE
+	var/proj_pass_chance = 80
 	var/list/connections = list("n" = FALSE, "s" = FALSE, "e" = FALSE, "w" = FALSE)
 	var/obj/structure/grille/fence/list/connected_obj = list("n" = null, "s" = null, "e" = null, "w" = null)
 	var/v_total = 0	// Total vertical connections
 	var/h_total = 0	// Total horizontal connections
+
+/obj/structure/grille/fence/CanPass(atom/movable/mover, turf/target, height=0)
+	if(istype(mover) && (mover.pass_flags == PASSGRILLE))
+		return TRUE
+	else if(istype(mover, /obj/projectile) && density)
+		return prob(proj_pass_chance)
+	else
+		return !density
 
 /obj/structure/grille/fence/Initialize()
 	. = ..()
@@ -176,14 +185,5 @@
 	icon = 'stalker/icons/obj/structure/dir_fences.dmi'
 	desc = "A sturdy concrete fence."
 	icon_state = "concrete"
-
-obj/structure/grille/fence/directional/concrete/CanPass(atom/movable/mover, turf/target, height=0)
-	if(height == 0)
-		return TRUE
-	if(istype(mover) && (mover.pass_flags == PASSGRILLE))
-		return TRUE
-	else
-		if(istype(mover, /obj/projectile) && density)
-			return prob(0)
-		else
-			return !density
+	proj_pass_chance = 0
+	opacity = TRUE

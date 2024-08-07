@@ -81,9 +81,16 @@
 	barefootstep = FOOTSTEP_HARD_BAREFOOT
 	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
 
-/turf/open/concrete_slab/Initialize()
+/turf/open/asphalt/Initialize()
 	. = ..()
-	icon_state = "[base_icon_state]_[rand(1, 6)]"
+	switch(rand(1, 100))
+		if(1 to 70)
+			icon_state = "[base_icon_state]_[rand(1, 3)]"
+		if(71 to 95)
+			icon_state = "[base_icon_state]_[rand(4, 5)]"
+		if(96 to 100)
+			icon_state = "[base_icon_state]_6"
+
 
 
 
@@ -132,7 +139,7 @@
 	name = "metal plate floor"
 	desc = "Metal plates about the size of typical ceramic tiles."
 	icon = 'stalker/icons/turf/floors/flooring.dmi'
-	icon_state = "metaltile_1"
+	icon_state = "metaltile"
 	base_icon_state = "metaltile"
 	baseturfs = /turf/open/metal_tile
 	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
@@ -140,7 +147,7 @@
 	barefootstep = FOOTSTEP_HARD_BAREFOOT
 	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
 
-/turf/open/metal_tile/diamond/Initialize()
+/turf/open/metal_tile/Initialize()
 	. = ..()
 	if(prob(25))
 		icon_state = "[base_icon_state]-rust[rand(1, 2)]"
@@ -162,7 +169,7 @@
 /turf/open/metal_tile/grating
 	name = "metal grating"
 	desc = "An arrangement of flat metal strips in a grid pattern. Only darkness can be seen below."
-	icon_state = "grating_1"
+	icon_state = "grating"
 	base_icon_state = "grating"
 	baseturfs = /turf/open/metal_tile/grating
 	initial_gas_mix = OPENTURF_DEFAULT_ATMOS

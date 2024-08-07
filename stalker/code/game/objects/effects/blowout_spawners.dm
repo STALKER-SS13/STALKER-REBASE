@@ -4,10 +4,11 @@ GLOBAL_LIST_EMPTY(blowout_spawners)
 	name = "blowout spawner"
 	icon = 'stalker/icons/obj/effect/spawners.dmi'
 	icon_state = "blowout"
+	invisibility = INVISIBILITY_ABSTRACT
+	faction = list("mining")
 	var/spawn_range = 3
 	var/mob_types = list(/mob/living/basic/carp)
 	var/max_mobs = 5
-	faction = list("mining")
 	var/list/spawned_mobs = list()
 	var/list/traits = list(TRAIT_BLOWOUT_IMMUNE)
 

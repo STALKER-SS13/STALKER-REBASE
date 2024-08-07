@@ -1,3 +1,70 @@
+/*-------------*\
+|>>>> TREES <<<<|
+\*-------------*/
+
+// Tree Stump
+/obj/structure/tree_stump
+	name = "tree stump"
+	desc = "I'm absolutely stumped on what I should put here as the description."
+	icon = 'stalker/icons/obj/structure/dead_trees.dmi'
+	icon_state = "tree_stump"
+	pixel_x = -16
+	resistance_flags = INDESTRUCTIBLE
+	var/obj/structure/tree_type = null		// Unless the tree stump was spawned by a tree it wont respawn other trees.
+	var/timer = 300							// Ticks until the tree respawns.
+
+/obj/structure/tree_stump/process()
+	if(timer <= 0)
+		new tree_type(get_turf(src))
+		qdel(src)
+		return
+	timer--
+
+/obj/structure/tree_stump/proc/set_tree(var/obj/structure/tree)
+	if(!istype(tree))
+		return
+	tree_type = tree.type
+	START_PROCESSING(SSobj, src)
+
+
+// Tree
+/obj/structure/flora/stalker_tree
+	name = "tree"
+	desc = "This tree has no leaves. Is it winter or is it just dead?"
+	icon = 'stalker/icons/obj/structure/dead_trees.dmi'
+	icon_state = "tree"
+	density = TRUE
+	anchored = TRUE
+	pixel_x = -16
+	layer = FLY_LAYER
+	plane = ABOVE_GAME_PLANE
+	drag_slowdown = 1.5
+	product_types = list(/obj/item/grown/log/tree = 1)
+	harvest_amount_low = 6
+	harvest_amount_high = 10
+	harvest_message_low = "You manage to gather a few logs from the tree."
+	harvest_message_med = "You manage to gather some logs from the tree."
+	harvest_message_high = "You manage to get most of the wood from the tree."
+	harvest_verb = "chop"
+	harvest_verb_suffix = "s down"
+	delete_on_harvest = TRUE
+	flora_flags = FLORA_HERBAL | FLORA_WOODEN
+
+/obj/structure/flora/stalker_tree/Initialize()
+	. = ..()
+	icon_state = initial(icon_state)
+	var/r = rand(0, 4)
+	if(r > 0)
+		icon_state += "[r]"
+
+/obj/structure/flora/stalker_tree/Destroy()
+	var/obj/structure/tree_stump/stump = new /obj/structure/tree_stump(get_turf(src))
+	stump.set_tree(src)
+	return ..()
+
+
+
+
 /*-------------------*\
 |>>>> Wild Plants <<<<|
 \*-------------------*/
@@ -11,8 +78,8 @@
 	density = FALSE
 
 /obj/structure/flora/root/Initialize()
-	icon_state = "wild_root[rand(1, 12)]"
 	. = ..()
+	icon_state = "wild_root[rand(1, 12)]"
 
 
 // Zona Potato
@@ -66,8 +133,8 @@
 	regrowth_time_high = 8 MINUTES
 
 /obj/structure/flora/root/wild_fungus/Initialize()
-	icon_state = "wild_fungus[rand(1, 4)]"
 	. = ..()
+	icon_state = "wild_fungus[rand(1, 4)]"
 
 
 // Zona Berries
@@ -87,8 +154,8 @@
 	regrowth_time_high = 8 MINUTES
 
 /obj/structure/flora/root/wild_berries/Initialize()
-	icon_state = "wild_berries[rand(1, 4)]"
 	. = ..()
+	icon_state = "wild_berries[rand(1, 4)]"
 
 
 // Zona Carrot
@@ -108,8 +175,8 @@
 	regrowth_time_high = 8 MINUTES
 
 /obj/structure/flora/root/wild_bayleaf/Initialize()
-	icon_state = "wild_bayleaf[rand(1, 4)]"
 	. = ..()
+	icon_state = "wild_bayleaf[rand(1, 4)]"
 
 
 // Zona Carrot

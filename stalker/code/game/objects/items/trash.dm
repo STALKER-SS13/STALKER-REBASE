@@ -222,6 +222,12 @@
 /obj/item/trash/stalker/cleanable
 	name = "DEBUG ITEM"	// Item should delete on being clicked, with a channel.
 
+/obj/item/trash/stalker/cleanable/attack_hand(mob/user)
+	user.visible_message(span_notice("[user] begins to clean away \the [src]..."), span_notice("You start to clean away \the [src]..."))
+	if(do_after(user, 1.5 SECONDS, src))
+		qdel(src)
+	return
+
 /obj/item/trash/stalker/cleanable/desk_clutter
 	name = "desk clutter"
 	icon_state = "desk_clutter"

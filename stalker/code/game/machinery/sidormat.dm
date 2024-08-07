@@ -3,11 +3,6 @@
 #define RIFLE_AMOUNT 12
 #define SPECIALTY_AMOUNT 6
 
-#define TRASH_TIER_COST		4000
-#define LOW_TIER_COST		9000
-#define MEDIUM_TIER_COST	36000
-#define HIGH_TIER_COST		72000
-
 // Experience
 #define ZONE_LEGEND							40000
 #define EXPERT								20000

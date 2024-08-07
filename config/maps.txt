@@ -16,6 +16,7 @@ endmap
 # Production-level maps.
 
 map zonaremastered
+	#default
 endmap
 
 # Debug-only maps.
