@@ -1,38 +1,26 @@
-/area/stalker
-	icon = 'stalker/icons/area/areas.dmi'
-	name = "Strange Location"
-	icon_state = "away"
-	has_gravity = STANDARD_GRAVITY
-
-/area/stalker/blowout
-
 /area/stalker/blowout/outdoor
 	name = "Outdoor"
 	icon = 'stalker/icons/area/blowout.dmi'
 	icon_state = "outdoor"
-	environment = 15
 
 /area/stalker/sidor
 	name = "Sidorovich Basement"
 	icon = 'stalker/icons/area/buildings.dmi'
 	icon_state = "sidor"
 	requires_power = 1
-	environment = 5
-	safezone = 1
+	safezone = TRUE
 
 /area/stalker/blowout/buildings
 	name = "Buildings"
 	icon = 'stalker/icons/area/blowout.dmi'
 	icon_state = "buildings"
 	requires_power = 1
-	environment = 2
 
 /area/stalker/buildings
 	name = "Buildings"
 	icon = 'stalker/icons/area/buildings.dmi'
 	icon_state = "buildings"
 	requires_power = 1
-	environment = 5
 
 /area/stalker/adminspace
 	name = "Admin Space"
@@ -51,17 +39,14 @@
 /area/stalker/buildings/backwater
 	name = "Backwater - Buildings \[NB\]"
 	icon_state = "buildings"
-	environment = 2
 
 /area/stalker/blowout/buildings/backwater
 	name = "Backwater - Buildings"
 	icon_state = "buildings"
-	environment = 2
 
 /area/stalker/blowout/outdoor/backwater
 	name = "Backwater - Outdoor \[O\]"
 	icon_state = "outdoor"
-	environment = 19
 
 
 //-- BACKWATER SUBSTATION --//
@@ -70,7 +55,6 @@
 /area/stalker/buildings/backwater/substation
 	name = "Backwater - Substation Workshops \[NB\]"
 	icon_state = "substation"
-	environment = 5
 
 /area/stalker/blowout/buildings/backwater/substation
 	name = "Backwater - Substation Workshops"
@@ -83,8 +67,7 @@
 /area/stalker/buildings/backwater/skadovsk
 	name = "Backwater - Skadovsk \[NB\]"
 	icon_state = "skadovsk"
-	safezone = 1
-	environment = 0
+	safezone = TRUE
 	//ambient_music = list()
 
 
@@ -94,22 +77,19 @@
 /area/stalker/buildings/backwater/skadovsk_respawn
 	name = "Backwater - Skadovsk (2nd floor) \[NB\]"
 	icon_state = "skadovsk"
-	safezone = 1
-	environment = 0
+	safezone = TRUE
 	//ambient_music = list()
 
 /area/stalker/blowout/buildings/backwater/skadovsk
 	name = "Backwater - Skadovsk"
 	icon_state = "skadovsk"
-	safezone = 1
-	environment = 0
+	safezone = TRUE
 	//ambient_music = list()
 
 /area/stalker/blowout/outdoor/backwater/skadovsk
 	name = "Backwater - Skadovsk \[O\]"
 	icon_state = "skadovsk"
-	safezone = 1
-	environment = 19
+	safezone = TRUE
 
 
 //-- BACKWATER SHEVCHENKO --//
@@ -118,12 +98,10 @@
 /area/stalker/buildings/backwater/shevchenko
 	name = "Backwater - Shevchenko \[NB\]"
 	icon_state = "shevchenko"
-	environment = 2
 
 /area/stalker/blowout/buildings/backwater/shevchenko
 	name = "Backwater - Shevchenko"
 	icon_state = "shevchenko"
-	environment = 2
 
 /area/stalker/blowout/outdoor/backwater/shevchenko
 	name = "Backwater - Shevchenko \[O\]"
@@ -170,14 +148,12 @@
 /area/stalker/buildings/backwater/krug
 	name = "Backwater - Krug Antenna Complex \[NB\]"
 	icon_state = "krug"
-	environment = 5
 	ambientsounds = list('stalker/sound/ambience/ugrnd/howled_4.ogg')
 	sound_environment = SOUND_ENVIRONMENT_MOUNTAINS
 
 /area/stalker/blowout/buildings/backwater/krug
 	name = "Backwater - Krug Antenna Complex"
 	icon_state = "krug"
-	environment = 2
 
 /area/stalker/blowout/outdoor/backwater/krug
 	name = "Backwater - Krug Antenna Complex \[O\]"
@@ -293,7 +269,6 @@
 /area/stalker/kordon/tunnel
 	name = "Tunnel"
 	icon_state = "tunnel_s"
-	environment = 13
 	sound_environment = SOUND_ENVIRONMENT_MOUNTAINS
 
 /area/stalker/blowout/kordon/tunnel
@@ -304,7 +279,6 @@
 	name = "Cave"
 	icon_state = "tunnel"
 	requires_power = 1
-	environment = 8
 
 /area/stalker/blowout/buildings/kordon
 	name = "Bar"
@@ -322,7 +296,7 @@
 	name = "Bandit Bar"
 	icon = 'stalker/icons/area/areas.dmi'
 	icon_state = "bandit_bar"
-//	banditsafezone = 1
+//	banditsafezone = TRUE
 
 
 
@@ -394,7 +368,6 @@
 	name = "Caves"
 	icon_state = "caves"
 	requires_power = 1
-	ambient_music = null
 	ambientsounds = list('stalker/sound/ambience/ugrnd/howled_4.ogg')
 	sound_environment = SOUND_ENVIRONMENT_MOUNTAINS
 
@@ -450,7 +423,6 @@
 	name = "Bar 100RENTGEN"
 	icon = 'stalker/icons/area/areas.dmi'
 	icon_state = "realbar"
-	safezone = 1
 
 
 
@@ -464,61 +436,51 @@
 	name = "Monolith Safezone"
 	icon = 'stalker/icons/area/areas.dmi'
 	icon_state = "monolith"
-	monolithsafezone = 1
 
 /area/stalker/buildings/duty
 	name = "Duty Safezone"
 	icon = 'stalker/icons/area/areas.dmi'
 	icon_state = "duty"
-	dutysafezone = 1
 
 /area/stalker/buildings/freedom
 	name = "Freedom Safezone"
 	icon = 'stalker/icons/area/areas.dmi'
 	icon_state = "freedom"
-	freedomsafezone = 1
 
 /area/stalker/buildings/clearsky
 	name = "Clear Sky Safezone"
 	icon = 'stalker/icons/area/areas.dmi'
 	icon_state = "clearsky"
-	cssafezone = 1
 
 /area/stalker/buildings/bandit
 	name = "Bandit Safezone"
 	icon = 'stalker/icons/area/areas.dmi'
 	icon_state = "bandit"
-	banditsafezone = 1
 
 /area/stalker/buildings/military
 	name = "Military Safezone"
 	icon = 'stalker/icons/area/areas.dmi'
 	icon_state = "military"
-	militarysafezone = 1
 
 /area/stalker/buildings/renegade
 	name = "Renegade Safezone"
 	icon = 'stalker/icons/area/areas.dmi'
 	icon_state = "renegades"
-	renegadesafezone = 1
 
 /area/stalker/buildings/mercenary
 	name = "Mercenary Safezone"
 	icon = 'stalker/icons/area/areas.dmi'
 	icon_state = "mercenary"
-	mercenarysafezone = 1
 
 /area/stalker/buildings/ecologist
 	name = "ecologist safezone"
 	icon = 'stalker/icons/area/areas.dmi'
 	icon_state = "ecologist"
-	ecosafezone = 1
 
 /area/stalker/buildings/ecologist_entrance
 	name = "ecologist"
 	icon = 'stalker/icons/area/areas.dmi'
 	icon_state = "ecologist entrance"
-	safezone = 1
 
 
 

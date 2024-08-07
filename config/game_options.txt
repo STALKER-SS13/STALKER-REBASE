@@ -53,7 +53,7 @@ MULTIPLICATIVE_MOVESPEED /mob/living/basic 0
 HUMANS_NEED_SURNAMES
 
 ## If uncommented, this forces all players to use random names !and appearances!.
-#FORCE_RANDOM_NAMES
+FORCE_RANDOM_NAMES
 
 ## Unhash this to turn on automatic reopening of a player's job if they suicide at roundstart
 #REOPEN_ROUNDSTART_SUICIDE_ROLES
@@ -84,7 +84,7 @@ STATION_GOAL_BUDGET 1
 ## GAME MODES ###
 
 ## Uncomment to not send a roundstart intercept report. Gamemodes may override this.
-#NO_INTERCEPT_REPORT
+NO_INTERCEPT_REPORT
 
 ## Percent weight reductions for three of the most recent modes
 
@@ -129,7 +129,7 @@ PROTECT_ROLES_FROM_ANTAGONIST
 #ENFORCE_HUMAN_AUTHORITY_ON_EVERYONE
 
 ## If late-joining players have a chance to become a traitor/changeling
-ALLOW_LATEJOIN_ANTAGONISTS
+#ALLOW_LATEJOIN_ANTAGONISTS
 
 ## Uncomment to prevent the nuclear operative leader from getting the war declaration item
 #DISABLE_WAROPS
@@ -139,10 +139,10 @@ DYNAMIC_CONFIG_ENABLED
 
 ## RANDOM EVENTS ###
 ## Comment this out to disable random events during the round.
-ALLOW_RANDOM_EVENTS
+#ALLOW_RANDOM_EVENTS
 
 ## Uncomment this to disable station traits.
-#FORBID_STATION_TRAITS
+FORBID_STATION_TRAITS
 
 ## Multiplier for earliest start time of dangerous events.
 ## Set to 0 to make dangerous events avaliable from round start.
@@ -163,7 +163,7 @@ EVENTS_FREQUENCY_UPPER 4200
 ## AI ###
 
 ## Allow the AI job to be picked.
-ALLOW_AI
+#ALLOW_AI
 
 ## Allow the AI Multicamera feature to be used by AI players
 ALLOW_AI_MULTICAM

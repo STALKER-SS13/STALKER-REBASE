@@ -285,13 +285,6 @@
 		/obj/item/gun/ballistic/automatic/aksu74 = 2,
 		/obj/item/gun/ballistic/automatic/kiparis = 1)
 
-/obj/effect/spawner/random/stalker/weapon/ak74
-	name = "stalker ak74"
-	icon_state = "ak74_loot"
-	spawn_loot_chance = 50
-	loot = list(
-		/obj/item/gun/ballistic/automatic/ak74 = 1)
-
 /obj/effect/spawner/random/stalker/weapon/rarerifles
 	name = "stalker rare rifles"
 	icon_state = "rifle_rare_loot"

@@ -1,0 +1,2 @@
+
+#define FIRE_PRIORITY_BLOWOUTS 17

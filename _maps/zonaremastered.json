@@ -2,5 +2,28 @@
 	"version": 1,
 	"map_name": "Zona Remastered",
 	"map_path": "map_files/Zona",
-	"map_file": "kordon.dmm"
+	"map_file": [
+		"kordon.dmm"
+		"under.dmm"
+	],
+	"traits": [
+		{
+			"Up": true,
+			"Linkage": null,
+			"Station": true,
+			"Gravity": true,
+			"No Parallax": true,
+			"Baseturf": "/turf/open/grass",
+			"Blowouts": true
+		},
+		{
+			"Down": true,
+			"Linkage": null,
+			"Station": true,
+			"Gravity": true,
+			"No Parallax": true,
+			"Baseturf": "/turf/open/gravel",
+			"Blowouts": true
+		},
+	]
 }

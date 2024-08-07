@@ -1,3 +1,13 @@
+/obj/item/ammo_casing/Initialize(mapload)
+	. = ..()
+	RegisterSignal(SSblowouts, COMSIG_BLOWOUT_CLEAN, PROC_REF(on_blowout_clean))
+
+/obj/item/ammo_casing/proc/on_blowout_clean()
+	SIGNAL_HANDLER
+
+	if(!loaded_projectile && isturf(loc) && istype(get_area(src), /area/stalker/blowout))
+		qdel(src)
+
 /obj/item/ammo_casing/c9x18
 	desc = "A 9x18mm bullet casing."
 	caliber = "9x18mm"

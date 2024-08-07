@@ -25,7 +25,7 @@
 	resistance_flags = INDESTRUCTIBLE
 
 // Painted Concrete //
-/turf/closed/wall/tan_concrete
+/turf/closed/wall/concrete
 	name = "concrete wall"
 	desc = "A large wall made of cement, aggregate, and rebar."
 	icon = 'stalker/icons/turf/walls/tan_concrete.dmi'

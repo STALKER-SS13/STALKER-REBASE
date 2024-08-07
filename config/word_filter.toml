@@ -8,7 +8,10 @@
 
 # Anything in here is blocked just from IC interactions, such as chat or names, but is allowed in dead chat and OOC
 [ic]
-"blockedinic" = "This message is not allowed IC, please use a different weird test phrase."
+"lol" = "Roleplay unfriendly diaologue."
+"xd" = "Roleplay unfriendly dialogue."
+"cringe" = "Roleplay unfriendly dialogue."
+"kys" = "Roleplay unfriendly dialogue."
 
 # Anything in here is blocked from all IC interactions *except* PDAs.
 # On /tg/, netspeak is OK in PDAs.
