@@ -6,7 +6,7 @@
 /mob/living/register_init_signals()
 	. = ..()
 	RegisterSignal(src, SIGNAL_ADDTRAIT(TRAIT_BLOWOUT_SUSCEPTIBLE), PROC_REF(on_blowout_susceptible_trait_gain))
-	RegisterSignal(src, SIGNAL_ADDTRAIT(TRAIT_BLOWOUT_SUSCEPTIBLE), PROC_REF(on_blowout_susceptible_trait_loss))
+	RegisterSignal(src, SIGNAL_REMOVETRAIT(TRAIT_BLOWOUT_SUSCEPTIBLE), PROC_REF(on_blowout_susceptible_trait_loss))
 
 /// Called when [TRAIT_BLOWOUT_SUSCEPTIBLE] is added to the mob.
 /mob/living/proc/on_blowout_susceptible_trait_gain(datum/source)

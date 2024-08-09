@@ -10,13 +10,13 @@
 
 /area/stalker/Entered(atom/movable/arrived, area/old_area)
 	. = ..()
-	if(isliving(arrived))
+	if(safezone && isliving(arrived))
 		ADD_TRAIT(arrived, TRAIT_PACIFISM, AREA_TRAIT)
 		to_chat(arrived, span_notice("You are now in a safe zone. You will not be able to attack other stalkers."))
 
 /area/stalker/Exited(atom/movable/gone, direction)
 	. = ..()
-	if(isliving(gone))
+	if(safezone && isliving(gone))
 		REMOVE_TRAIT(gone, TRAIT_PACIFISM, AREA_TRAIT)
 		to_chat(gone, span_notice("You are out of the safe zone. You will be able to attack other stalkers."))
 
@@ -28,8 +28,6 @@
 		if(!HAS_TRAIT(arrived, TRAIT_BLOWOUT_SUSCEPTIBLE))
 			if(SSblowouts.blowout_stage)
 				to_chat(arrived, span_danger(span_big("You are being affected by the emission!")))
-			else
-				to_chat(arrived, span_warning("You are now susceptible to emissions."))
 		ADD_TRAIT(arrived, TRAIT_BLOWOUT_SUSCEPTIBLE, AREA_TRAIT)
 
 /area/stalker/blowout/Exited(atom/movable/gone, direction)
@@ -39,8 +37,6 @@
 		if(!HAS_TRAIT(gone, TRAIT_BLOWOUT_SUSCEPTIBLE))
 			if(SSblowouts.blowout_stage)
 				to_chat(gone, span_notice(span_big("You are now safe from emissions.")))
-			else
-				to_chat(gone, span_notice("You are now safe from emissions."))
 
 /area/stalker/blowout/outdoors
 	name = "Outdoors"

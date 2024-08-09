@@ -42,6 +42,7 @@
 			v_total++
 			connected_obj["n"] = S
 			connected_obj["n"].connections["s"] = TRUE
+			connected_obj["n"].connected_obj["s"] = src
 			connected_obj["n"].update_icon()
 			break
 	// South
@@ -51,6 +52,7 @@
 			v_total++
 			connected_obj["s"] = S
 			connected_obj["s"].connections["n"] = TRUE
+			connected_obj["s"].connected_obj["n"] = src
 			connected_obj["s"].update_icon()
 			break
 
@@ -61,6 +63,7 @@
 			h_total++
 			connected_obj["e"] = S
 			connected_obj["e"].connections["w"] = TRUE
+			connected_obj["e"].connected_obj["w"] = src
 			connected_obj["e"].update_icon()
 			break
 	// West
@@ -70,6 +73,7 @@
 			h_total++
 			connected_obj["w"] = S
 			connected_obj["w"].connections["e"] = TRUE
+			connected_obj["w"].connected_obj["e"] = src
 			connected_obj["w"].update_icon()
 			break
 
@@ -85,21 +89,25 @@
 
 /obj/structure/grille/fence/Destroy()
 	if(connected_obj["n"])
+		connected_obj["n"].connections["s"] = FALSE
 		connected_obj["n"].connected_obj["s"] = null
 		connected_obj["n"].v_total--
 		connected_obj["n"].update_icon()
 	if(connected_obj["s"])
+		connected_obj["s"].connections["n"] = FALSE
 		connected_obj["s"].connected_obj["n"] = null
 		connected_obj["s"].v_total--
 		connected_obj["s"].update_icon()
 	if(connected_obj["e"])
+		connected_obj["e"].connections["w"] = FALSE
 		connected_obj["e"].connected_obj["w"] = null
 		connected_obj["e"].h_total--
 		connected_obj["e"].update_icon()
 	if(connected_obj["w"])
+		connected_obj["w"].connections["e"] = FALSE
 		connected_obj["w"].connected_obj["e"] = null
 		connected_obj["w"].h_total--
-		connected_obj["W"].update_icon()
+		connected_obj["w"].update_icon()
 	return ..()
 
 

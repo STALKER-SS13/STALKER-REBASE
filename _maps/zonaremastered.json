@@ -1,11 +1,14 @@
 {
 	"version": 1,
-	"map_name": "Zona Remastered",
+	"map_name": "ZonaRemastered",
 	"map_path": "map_files/Zona",
 	"map_file": [
-		"kordon.dmm"
+		"kordon.dmm",
 		"under.dmm"
 	],
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"planetary": 1,
 	"traits": [
 		{
 			"Up": true,
@@ -24,6 +27,7 @@
 			"No Parallax": true,
 			"Baseturf": "/turf/open/gravel",
 			"Blowouts": true
-		},
-	]
+		}
+	],
+	"minetype": "none"
 }
