@@ -5,8 +5,10 @@
 /obj/item/ammo_casing/proc/on_blowout_clean()
 	SIGNAL_HANDLER
 
-	if(!loaded_projectile && isturf(loc) && istype(get_area(src), /area/stalker/blowout))
-		qdel(src)
+	if(!loaded_projectile && isturf(loc))
+		var/area/stalker/A = get_area(src)
+		if(istype(A) && A.blowout)
+			qdel(src)
 
 /obj/item/ammo_casing/c9x18
 	desc = "A 9x18mm bullet casing."

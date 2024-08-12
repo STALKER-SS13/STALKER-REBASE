@@ -151,8 +151,8 @@
 
 	// Direction is only relevant under these conditions
 	if(v_total > 0 && !hdir)
-		var/_hdir = rand(1, 2)
 		if(h_total > 0)
+			var/_hdir = rand(1, 2)
 			if(h_total == 1)
 				if(connections["e"])
 					_hdir = 2

@@ -4,16 +4,17 @@
 /turf/open/grass
 	name = "grass"
 	desc = "Just some dirt covered in grass."
-	icon = 'stalker/icons/turf/floors/earth.dmi'
+	icon = 'stalker/icons/turf/floors/grass.dmi'
 	icon_state = "grass_1"
 	base_icon_state = "grass"
+	autotile_icon = 'stalker/icons/turf/floors/grass.dmi'
+	autotile_state = "grass"
 	baseturfs = /turf/open/grass
 	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
 	planetary_atmos = TRUE
 	footstep = FOOTSTEP_GRASS
 	barefootstep = FOOTSTEP_GRASS
 	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
-
 
 /turf/open/grass/Initialize()
 	. = ..()
@@ -74,6 +75,7 @@
 	icon = 'stalker/icons/turf/floors/earth.dmi'
 	icon_state = "dirt_1"
 	base_icon_state = "dirt"
+	autotile_with = list(/turf/open/grass)
 	baseturfs = /turf/open/soil
 	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
 	planetary_atmos = TRUE
