@@ -60,7 +60,7 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 
 	// Random Chance
 	if(!cache_chance)
-		cache_chance += 13 - 3 * cache_tier
+		cache_chance += 25 - 5 * cache_tier
 
 	if(!prob(cache_chance))
 		return

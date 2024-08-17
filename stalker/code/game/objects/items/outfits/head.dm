@@ -88,7 +88,7 @@
 
 
 // Mercenary Helmet //
-/obj/item/clothing/head/helmet/mercenary
+/obj/item/clothing/head/helmet/assaultmerc
 	name = "Mercenary helmet"
 	desc = "Schutzhelm 04 made in Switzerland used by the Mercenaries of the Dead City. A high quality model worn mostly by mercenaries. Provides a dependable protection."
 	icon = 'stalker/icons/obj/item/clothing/head.dmi'
@@ -101,7 +101,7 @@
 	resistance_flags = UNACIDABLE
 
 // Sphera M12 //
-/obj/item/clothing/head/helmet/spheram
+/obj/item/clothing/head/helmet/sphera
 	name = "Sphera M12"
 	desc = "An aluminum/titanium helmet with a cloth exterior that comes with pockets for additional steel armor pieces and an armor face mask. Sphera M12 are normally used as part of a combination that includes PSZ series Spetsnaz body armor. Quite popular in the Zone thanks to its respirator and built-in first generation night vision device, as well as providing the maximum head protection possible. Comes with electronics slots."
 	icon = 'stalker/icons/obj/item/clothing/head.dmi'

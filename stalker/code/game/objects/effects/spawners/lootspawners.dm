@@ -653,7 +653,7 @@
 		/obj/item/clothing/head/helmet/ssh = 4,
 		/obj/item/clothing/head/helmet/steel = 4,
 		/obj/item/clothing/head/helmet/tactical_light = 2,
-		/obj/item/clothing/head/helmet/spheram = 2,
+		/obj/item/clothing/head/helmet/sphera = 2,
 		/obj/item/clothing/head/helmet/skat = 1)
 
 /obj/effect/spawner/random/stalker/weapon/stockparts
