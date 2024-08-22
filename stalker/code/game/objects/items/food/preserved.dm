@@ -135,7 +135,7 @@
 	name = "empty can"
 	icon_state = "bobi2"
 
-/obj/item/food/konserva/govyadina2
+/obj/item/food/konserva/govyadina
 	name = "canned meal (stew)"
 	desc = "A can of beef-stew! An avidly loved staple of those who scour around old ruins in search for loot!"
 	icon = 'stalker/icons/obj/item/food.dmi'

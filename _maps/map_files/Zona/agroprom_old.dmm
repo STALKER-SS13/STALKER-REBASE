@@ -1,6 +1,6 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "ab" = (
 /turf/closed/mineral,
@@ -10,98 +10,98 @@
 /area/stalker/blowout/outdoor)
 "ad" = (
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "ae" = (
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "-|2";
 	tag = "icon--|2"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "af" = (
-/obj/structure/grille/stalker/beton,
-/turf/open/stalker/floor/digable/grass,
+/obj/structure/grille/fence/directional/concrete,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "ag" = (
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "-|3";
 	pixel_x = -2;
 	tag = "icon--|3"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "ah" = (
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "|";
 	tag = "icon-|"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "ai" = (
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "-|";
 	pixel_x = -2;
 	tag = "icon--|"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "aj" = (
-/turf/closed/wall/stalker/beton,
+/turf/closed/wall/concrete,
 /area/stalker/blowout/outdoor)
 "ak" = (
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "-|3";
 	pixel_x = 0;
 	tag = "icon--|3"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "al" = (
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "|2";
 	tag = "icon-|2"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "am" = (
-/turf/closed/wall/stalker/beton,
+/turf/closed/wall/concrete,
 /area/space)
 "an" = (
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "-|1";
 	tag = "icon--|1"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "ao" = (
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/stalker/blowout/outdoor)
 "ap" = (
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/space)
 "aq" = (
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/space)
 "ar" = (
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "as" = (
 /obj/structure/stalker/rails{
 	icon_state = "spr1";
 	tag = "icon-spr1"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "at" = (
 /obj/structure/stalker/rails{
 	icon_state = "spr1";
 	tag = "icon-spr1"
 	},
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "au" = (
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "|2";
 	tag = "icon-|2"
 	},
@@ -109,31 +109,31 @@
 	icon_state = "spr1";
 	tag = "icon-spr1"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "av" = (
 /obj/structure/stalker/rails{
 	icon_state = "spr1";
 	tag = "icon-spr1"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/space)
 "aw" = (
 /obj/structure/stalker/rails{
 	icon_state = "l";
 	tag = "icon-l"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "ax" = (
 /obj/structure/stalker/rails{
 	icon_state = "l";
 	tag = "icon-l"
 	},
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "ay" = (
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "|2";
 	tag = "icon-|2"
 	},
@@ -141,34 +141,34 @@
 	icon_state = "l";
 	tag = "icon-l"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "az" = (
 /obj/structure/stalker/rails{
 	icon_state = "r";
 	tag = "icon-r"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "aA" = (
 /obj/structure/stalker/rails{
 	icon_state = "l";
 	tag = "icon-l"
 	},
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "aB" = (
 /obj/structure/stalker/rails{
 	icon_state = "r";
 	tag = "icon-r"
 	},
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "aC" = (
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "aD" = (
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "|2";
 	tag = "icon-|2"
 	},
@@ -176,24 +176,24 @@
 	icon_state = "r";
 	tag = "icon-r"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "aE" = (
 /obj/structure/stalker/rails{
 	icon_state = "spl1";
 	tag = "icon-spl1"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "aF" = (
 /obj/structure/stalker/rails{
 	icon_state = "r";
 	tag = "icon-r"
 	},
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "aG" = (
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "|2";
 	tag = "icon-|2"
 	},
@@ -201,7 +201,7 @@
 	icon_state = "spl1";
 	tag = "icon-spl1"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "aH" = (
 /turf/open/stalker/floor/asphalt{
@@ -220,14 +220,14 @@
 	icon_state = "spl1";
 	tag = "icon-spl1"
 	},
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "aK" = (
 /obj/structure/stalker/rails{
 	icon_state = "spl1";
 	tag = "icon-spl1"
 	},
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "aL" = (
 /turf/open/stalker/floor/asphalt{
@@ -306,7 +306,7 @@
 	icon_state = "spl1";
 	tag = "icon-spl1"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/space)
 "aY" = (
 /turf/open/stalker/floor/asphalt{
@@ -327,12 +327,12 @@
 	},
 /area/stalker/blowout/outdoor)
 "bb" = (
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "-|";
 	pixel_x = 0;
 	tag = "icon--|"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "bc" = (
 /turf/open/stalker/floor/asphalt{
@@ -373,11 +373,11 @@
 	},
 /area/stalker/blowout/outdoor)
 "bi" = (
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "-|";
 	tag = "icon--|"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "bj" = (
 /obj/structure/flora/ausbushes/fullgrass,
@@ -387,13 +387,13 @@
 	},
 /area/stalker/blowout/outdoor)
 "bk" = (
-/obj/structure/stalker/tree,
-/turf/open/stalker/floor/digable/grass,
+
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "bl" = (
 /obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/stalker/tree,
-/turf/open/stalker/floor/digable/grass,
+
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "bm" = (
 /turf/open/stalker/floor/asphalt{
@@ -434,14 +434,14 @@
 	},
 /area/stalker/blowout/outdoor)
 "bs" = (
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "=";
 	tag = "icon-="
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "bt" = (
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "bu" = (
 /obj/structure/stalker/blocks/vanish/shlagbaum1,
@@ -467,7 +467,7 @@
 	icon_state = "matras";
 	tag = "icon-matras (NORTH)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "bx" = (
 /obj/structure/stalker/blocks/vanish/shlagbaum1{
@@ -482,48 +482,48 @@
 /area/stalker/blowout/outdoor)
 "by" = (
 /obj/machinery/campfire/barrel,
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "bz" = (
 /obj/structure/bed/stalker/matras,
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "bA" = (
-/turf/open/stalker/floor/wood/oldgor,
+/turf/open/wood,
 /area/stalker/blowout/outdoor)
 "bB" = (
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "=1";
 	tag = "icon-=1"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "bC" = (
-/obj/structure/stalker/cacheable/bochka{
+/obj/structure/cache/barrel{
 	pixel_x = -6
 	},
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "bD" = (
 /obj/structure/barricade/stalker/box,
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "bE" = (
-/obj/structure/grille/stalker,
-/turf/open/stalker/floor/gryaz/gryaz2,
+/obj/structure/grille/fence/iron,
+/turf/open/grass,
 /area/space)
 "bF" = (
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "-|3";
 	tag = "icon--|3"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "bG" = (
 /obj/structure/closet/stalker/shkaf{
 	pixel_y = 12
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "bH" = (
 /obj/effect/turf_decal/stripes/full{
@@ -541,10 +541,10 @@
 	icon_state = "krovat_e";
 	tag = "icon-krovat_e (EAST)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "bI" = (
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/stalker/blowout/outdoor)
 "bJ" = (
 /obj/structure/bed/stalker/metal/matras{
@@ -562,35 +562,35 @@
 	pixel_x = 28;
 	tag = "icon-border8"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "bK" = (
-/obj/structure/stalker/cacheable/komod{
+/obj/structure/cache/burnt_dresser{
 	pixel_x = 6;
 	pixel_y = 8
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "bL" = (
-/obj/structure/grille/stalker,
-/turf/open/stalker/floor/digable/grass,
+/obj/structure/grille/fence/iron,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "bM" = (
 /obj/structure/table/stalker/wood,
-/obj/structure/stalker/cacheable/radio{
+/obj/structure/stalker/radio{
 	dir = 4;
 	icon_state = "radio";
 	pixel_x = -4;
 	pixel_y = 6;
 	tag = "icon-radio (EAST)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "bN" = (
-/obj/structure/grille/stalker{
+/obj/structure/grille/fence/iron{
 	icon_state = "fence2"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "bO" = (
 /turf/open/stalker/floor/asphalt{
@@ -604,41 +604,41 @@
 	icon_state = "krovat_s";
 	tag = "icon-krovat_s (NORTH)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "bQ" = (
-/obj/structure/grille/stalker{
+/obj/structure/grille/fence/iron{
 	icon_state = "fence3"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "bR" = (
-/obj/structure/grille/stalker{
+/obj/structure/grille/fence/iron{
 	icon_state = "fence0";
 	tag = "icon-fence0"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "bS" = (
 /obj/structure/stalker/doski/doski3,
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "bT" = (
-/obj/structure/grille/stalker,
-/obj/structure/grille/stalker{
+/obj/structure/grille/fence/iron,
+/obj/structure/grille/fence/iron{
 	icon_state = "fence3"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "bU" = (
-/obj/structure/grille/stalker{
+/obj/structure/grille/fence/iron{
 	icon_state = "fence2"
 	},
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "|2";
 	tag = "icon-|2"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "bV" = (
 /turf/open/stalker/floor/asphalt{
@@ -647,52 +647,52 @@
 	},
 /area/stalker/blowout/outdoor)
 "bW" = (
-/obj/structure/stalker/cacheable/battery{
+/obj/structure/stalker/radiator{
 	dir = 4;
 	icon_state = "gazovaya_truba";
 	tag = "icon-gazovaya_truba (EAST)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "bX" = (
-/obj/structure/stalker/cacheable/porog/porog2{
+/obj/structure/stalker/step/step2{
 	dir = 1;
 	icon_state = "porog2";
 	tag = "icon-porog2 (NORTH)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/stalker/blowout/outdoor)
 "bY" = (
-/obj/structure/stalker/cacheable/battery{
+/obj/structure/stalker/radiator{
 	dir = 8;
 	icon_state = "gazovaya_truba";
 	tag = "icon-gazovaya_truba (WEST)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "bZ" = (
-/obj/structure/stalker/cacheable/polka{
+/obj/structure/stalker/shelf{
 	dir = 4;
 	icon_state = "polka_right";
 	tag = "icon-polka_right (EAST)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "ca" = (
 /obj/structure/stalker/doski,
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cb" = (
 /obj/structure/stalker/doski/doski4,
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cc" = (
-/obj/structure/stalker/cacheable/polka{
+/obj/structure/stalker/shelf{
 	dir = 4;
 	icon_state = "polka_left";
 	tag = "icon-polka_left (EAST)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cd" = (
 /obj/effect/turf_decal/stripes/full{
@@ -710,7 +710,7 @@
 	icon_state = "krovat";
 	tag = "icon-krovat (EAST)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "ce" = (
 /obj/effect/turf_decal/stripes/full{
@@ -728,30 +728,30 @@
 	icon_state = "krovat_e";
 	tag = "icon-krovat_e (WEST)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cf" = (
-/obj/structure/stalker/cacheable/yashik/yaskik_a,
-/turf/open/stalker/floor/plasteel/plita,
+/obj/structure/cache/crate/green,
+/turf/open/metal_tile,
 /area/space)
 "cg" = (
 /obj/effect/landmark/mobspawner/snork_spawner,
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "ch" = (
 /turf/closed/mineral,
 /area/space)
 "ci" = (
 /obj/structure/chair/stalker/divan,
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cj" = (
 /obj/structure/chair/stalker/divan/divan2,
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "ck" = (
-/obj/structure/closet/stalker/shkaf,
-/turf/open/stalker/floor/plasteel/plita,
+/obj/structure/cache/closet,
+/turf/open/metal_tile,
 /area/space)
 "cl" = (
 /obj/effect/turf_decal/stripes/full{
@@ -760,11 +760,11 @@
 	tag = "icon-border2"
 	},
 /obj/structure/bed/stalker/metal/matras,
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cm" = (
 /obj/structure/stalker/doski/doski2,
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cn" = (
 /obj/structure/stalker/brokenbed{
@@ -777,7 +777,7 @@
 	pixel_y = 0;
 	tag = "icon-border2"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "co" = (
 /obj/effect/turf_decal/stripes/full{
@@ -790,35 +790,35 @@
 	icon_state = "krovat_e";
 	tag = "icon-krovat_e (NORTH)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cp" = (
 /obj/structure/stalker/list,
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cq" = (
 /obj/structure/table/stalker/wood,
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cr" = (
-/obj/structure/stalker/cacheable/komod,
-/turf/open/stalker/floor/plasteel/plita,
+/obj/structure/cache/burnt_dresser,
+/turf/open/metal_tile,
 /area/space)
 "cs" = (
 /obj/structure/stalker/matras{
 	pixel_x = -12
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "ct" = (
-/obj/structure/stalker/cacheable/polka,
-/turf/open/stalker/floor/plasteel/plita,
+/obj/structure/stalker/shelf,
+/turf/open/metal_tile,
 /area/space)
 "cu" = (
-/obj/structure/stalker/cacheable/bochka{
+/obj/structure/cache/barrel{
 	pixel_x = 6
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cv" = (
 /turf/open/stalker/floor/asphalt{
@@ -837,7 +837,7 @@
 	icon_state = "sandbag1";
 	tag = "icon-sandbag1"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "cy" = (
 /obj/structure/stalker/blocks/vanish/sandbags{
@@ -855,7 +855,7 @@
 	icon_state = "whitebrickdbl2";
 	tag = "icon-whitebrickdbl2 (EAST)"
 	},
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/stalker/blowout/outdoor)
 "cA" = (
 /obj/structure/stalker/blocks/vanish/shlagbaum1{
@@ -900,12 +900,12 @@
 	},
 /area/stalker/blowout/outdoor)
 "cE" = (
-/obj/structure/stalker/cacheable/yashik,
-/turf/open/stalker/floor/plasteel/plita,
+/obj/structure/cache/crate,
+/turf/open/metal_tile,
 /area/space)
 "cF" = (
 /obj/structure/barricade/stalker/box,
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cG" = (
 /obj/structure/stalker/blocks/vanish/sandbags{
@@ -918,33 +918,33 @@
 	},
 /area/stalker/blowout/outdoor)
 "cH" = (
-/obj/structure/grille/stalker,
-/turf/open/stalker/floor/plasteel/plita,
+/obj/structure/grille/fence/iron,
+/turf/open/metal_tile,
 /area/space)
 "cI" = (
 /obj/structure/stalker/okno/window2{
 	opacity = 1
 	},
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/stalker)
 "cJ" = (
-/obj/structure/grille/stalker{
+/obj/structure/grille/fence/iron{
 	density = 0;
 	icon_state = "fence4";
 	tag = "icon-fence4"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cK" = (
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker)
 "cL" = (
-/obj/structure/stalker/cacheable/polka{
+/obj/structure/stalker/shelf{
 	dir = 8;
 	icon_state = "polka_right";
 	tag = "icon-polka_right (WEST)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cM" = (
 /obj/structure/stalker/okno/window2{
@@ -952,7 +952,7 @@
 	icon_state = "whitebrickdbl1";
 	tag = "icon-whitebrickdbl1 (WEST)"
 	},
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/stalker/blowout/outdoor)
 "cN" = (
 /obj/structure/stalker/okno/window2{
@@ -960,15 +960,15 @@
 	icon_state = "whitebrickdbl1";
 	tag = "icon-whitebrickdbl1 (EAST)"
 	},
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/stalker/blowout/outdoor)
 "cO" = (
-/obj/structure/stalker/cacheable/polka{
+/obj/structure/stalker/shelf{
 	dir = 8;
 	icon_state = "polka_middle";
 	tag = "icon-polka_middle (WEST)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cP" = (
 /obj/structure/stalker/okno/window4{
@@ -976,7 +976,7 @@
 	icon_state = "whitebrickdbl2";
 	tag = "icon-whitebrickdbl2 (WEST)"
 	},
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/stalker/blowout/outdoor)
 "cQ" = (
 /obj/structure/stalker/okno/window2{
@@ -984,40 +984,40 @@
 	icon_state = "whitebrickdbl1";
 	tag = "icon-whitebrickdbl1 (NORTH)"
 	},
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/stalker/blowout/outdoor)
 "cR" = (
-/obj/structure/stalker/cacheable/porog/porog2{
+/obj/structure/stalker/step/step2{
 	dir = 8;
 	icon_state = "porog2";
 	tag = "icon-porog2 (WEST)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/stalker/blowout/outdoor)
 "cS" = (
 /obj/structure/table/stalker/wood,
-/obj/structure/stalker/cacheable/radio{
+/obj/structure/stalker/radio{
 	dir = 1;
 	icon_state = "radio";
 	pixel_y = 8;
 	tag = "icon-radio (NORTH)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cT" = (
-/turf/open/stalker/floor/asphalt,
+/turf/open/asphalt,
 /area/space)
 "cU" = (
-/obj/structure/stalker/cacheable/polka{
+/obj/structure/stalker/shelf{
 	dir = 8;
 	icon_state = "polka_left";
 	tag = "icon-polka_left (WEST)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "cV" = (
 /obj/structure/stalker/blocks/vanish/block1,
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "cW" = (
 /obj/structure/stalker/okno/window4{
@@ -1025,84 +1025,84 @@
 	icon_state = "whitebrickdbl2";
 	tag = "icon-whitebrickdbl2 (NORTH)"
 	},
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/stalker/blowout/outdoor)
 "cX" = (
-/obj/structure/grille/stalker{
+/obj/structure/grille/fence/iron{
 	icon_state = "fence0";
 	tag = "icon-fence0"
 	},
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/space)
 "cY" = (
-/obj/structure/grille/stalker,
-/turf/closed/wall/stalker/bricks_white,
+/obj/structure/grille/fence/iron,
+/turf/closed/wall/white_brick,
 /area/space)
 "cZ" = (
-/turf/open/stalker/floor/wood/oldgor,
+/turf/open/wood,
 /area/space)
 "da" = (
-/obj/structure/grille/stalker{
+/obj/structure/grille/fence/iron{
 	icon_state = "fence0";
 	tag = "icon-fence0"
 	},
-/obj/structure/grille/stalker/beton{
+/obj/structure/grille/fence/directional/concrete{
 	icon_state = "|";
 	tag = "icon-|"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "db" = (
 /obj/structure/barricade/stalker/box,
-/obj/structure/stalker/cacheable/polka{
+/obj/structure/stalker/shelf{
 	dir = 4;
 	icon_state = "polka_right";
 	tag = "icon-polka_right (EAST)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "dc" = (
 /obj/structure/barricade/stalker/box,
-/obj/structure/stalker/cacheable/polka{
+/obj/structure/stalker/shelf{
 	dir = 4;
 	icon_state = "polka_middle";
 	tag = "icon-polka_middle (EAST)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "dd" = (
-/obj/structure/grille/stalker{
+/obj/structure/grille/fence/iron{
 	icon_state = "fence3"
 	},
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/space)
 "de" = (
 /obj/structure/stalker/okno/window4,
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/stalker/blowout/outdoor)
 "df" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 1;
 	icon_state = "wooden_chair";
 	tag = "icon-wooden_chair (NORTH)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "dg" = (
-/obj/structure/stalker/cacheable/polka{
+/obj/structure/stalker/shelf{
 	dir = 4;
 	icon_state = "polka_middle";
 	tag = "icon-polka_middle (EAST)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "dh" = (
-/obj/structure/stalker/cacheable/polka{
+/obj/structure/stalker/shelf{
 	dir = 4;
 	icon_state = "polka";
 	tag = "icon-polka (EAST)"
 	},
-/turf/open/stalker/floor/plasteel/plita,
+/turf/open/metal_tile,
 /area/space)
 "di" = (
 /obj/structure/stalker/okno/window2{
@@ -1111,7 +1111,7 @@
 	opacity = 1;
 	tag = "icon-whitebrickdbl1 (NORTH)"
 	},
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/space)
 "dj" = (
 /obj/structure/stalker/okno/window4{
@@ -1120,52 +1120,52 @@
 	opacity = 1;
 	tag = "icon-whitebrickdbl2 (NORTH)"
 	},
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/space)
 "dk" = (
-/obj/structure/stalker/cacheable/polka{
+/obj/structure/stalker/shelf{
 	pixel_y = 12
 	},
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "dl" = (
-/obj/structure/grille/stalker{
+/obj/structure/grille/fence/iron{
 	density = 0;
 	icon_state = "fence4";
 	tag = "icon-fence4"
 	},
-/turf/open/stalker/floor/digable/grass,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "dm" = (
-/obj/structure/grille/stalker{
+/obj/structure/grille/fence/iron{
 	icon_state = "fence3"
 	},
-/obj/structure/grille/stalker/beton,
-/turf/open/stalker/floor/digable/grass,
+/obj/structure/grille/fence/directional/concrete,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 "dn" = (
-/obj/structure/stalker/cacheable/bochka,
-/turf/open/stalker/floor/gryaz/gryaz2,
+/obj/structure/cache/barrel,
+/turf/open/grass,
 /area/space)
 "do" = (
 /obj/structure/stalker/blocks/vanish/block2,
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "dr" = (
 /obj/structure/chair/brevno,
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "ds" = (
 /obj/structure/chair/brevno/log2,
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "dt" = (
 /obj/structure/stalker/matras,
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "du" = (
 /obj/machinery/campfire/barrel,
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "dv" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
@@ -1174,37 +1174,37 @@
 	pixel_x = 0;
 	tag = "icon-truba2 (NORTH)"
 	},
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "dw" = (
-/turf/open/stalker/floor/tropa,
+/turf/open/path,
 /area/space)
 "dx" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2,
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/space)
 "dy" = (
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/stalker)
 "dA" = (
 /obj/structure/stalker/okno/window4{
 	opacity = 1
 	},
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/stalker)
 "dB" = (
 /obj/structure/stalker/okno/window2,
-/turf/closed/wall/stalker/bricks_white,
+/turf/closed/wall/white_brick,
 /area/stalker/blowout/outdoor)
 "dU" = (
-/turf/closed/wall/stalker/beton,
+/turf/closed/wall/concrete,
 /area/stalker)
 "dV" = (
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/stalker)
 "dX" = (
 /obj/effect/landmark/mobspawner/snork_spawner,
-/turf/open/stalker/floor/gryaz/gryaz2,
+/turf/open/grass,
 /area/stalker/blowout/outdoor)
 
 (1,1,1) = {"

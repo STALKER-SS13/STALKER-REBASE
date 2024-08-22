@@ -74,7 +74,7 @@
 	pass_flags = LETPASSTHROW
 	cache_size = CACHE_SMALL
 
-/obj/structure/cache/chest_drawers/lage
+/obj/structure/cache/chest_drawers/large
 	name = "large metal chest drawers"
 	desc = "Rusty old wardrobe. Covered with grease and dirt."
 	icon_state = "chest_drawers_L"

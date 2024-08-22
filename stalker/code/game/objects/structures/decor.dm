@@ -36,7 +36,7 @@
 	density = TRUE
 	anchored = TRUE
 
-/obj/structure/stalker/old_toilet
+/obj/structure/stalker/old_shower
 	name = "old shower"
 	desc = "There's no plumbing to this shower..."
 	icon_state = "old_shower"
