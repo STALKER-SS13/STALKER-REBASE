@@ -43,3 +43,9 @@
 	. = ..()
 	machine_stat |= BROKEN
 	update_appearance()
+
+
+/obj/machinery/vending/medical/broken/Initialize()
+	. = ..()
+	machine_stat |= BROKEN
+	update_appearance()

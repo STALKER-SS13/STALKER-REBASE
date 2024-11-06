@@ -4,7 +4,7 @@
 /turf/open/asphalt,
 /area/stalker/blowout/buildings)
 "ab" = (
-/obj/structure/stalker/cacheable/oldcomputer,
+/obj/structure/stalker/old_computer,
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "ac" = (
@@ -27,7 +27,6 @@
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
 "ai" = (
-/obj/structure/flora/ausbushes/reedbush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "aj" = (
@@ -54,7 +53,7 @@
 /area/stalker/blowout/buildings)
 "av" = (
 /obj/effect/abstract/radiation/low,
-/turf/open/floor/plasteel/dark,
+/turf/open/metal_tile/diamond,
 /area/stalker/blowout/buildings)
 "aw" = (
 /obj/effect/abstract/radiation/high,
@@ -91,8 +90,6 @@
 /turf/open/metal_tile/diamond,
 /area/stalker/blowout/buildings)
 "aM" = (
-/obj/structure/flora/ausbushes/sparsegrass,
-/obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "aP" = (
@@ -126,7 +123,7 @@
 /turf/open/concrete_slab,
 /area/stalker/blowout/buildings)
 "bc" = (
-/obj/structure/stalker/cacheable/battery,
+/obj/structure/stalker/radiator,
 /turf/closed/wall/stalker/store,
 /area/stalker/blowout/buildings)
 "bf" = (
@@ -146,8 +143,6 @@
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "bj" = (
-/obj/structure/flora/ausbushes/leafybush,
-/obj/structure/flora/ausbushes/leafybush,
 /obj/effect/abstract/radiation/low,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
@@ -177,9 +172,6 @@
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "bF" = (
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "bL" = (
@@ -190,10 +182,9 @@
 /obj/structure/table/stalker/wood,
 /obj/item/paper_bin,
 /obj/item/pen/fourcolor,
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/buildings/mercenary)
 "bT" = (
-/obj/structure/flora/ausbushes/grassybush,
 /obj/effect/abstract/radiation/low,
 /obj/effect/abstract/radiation/low,
 /turf/open/gravel,
@@ -208,7 +199,6 @@
 /area/stalker/blowout/outdoor)
 "bX" = (
 /obj/effect/abstract/radiation/medium,
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "bY" = (
@@ -251,7 +241,7 @@
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "cq" = (
-/obj/structure/stalker/cacheable/junk_tv,
+/obj/structure/stalker/old_tv,
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
 "ct" = (
@@ -265,7 +255,7 @@
 /turf/open/metal_tile,
 /area/stalker/blowout/buildings)
 "cv" = (
-/obj/structure/stalker/cacheable/oldcoverblue,
+/obj/structure/stalker/oldcoverblue,
 /turf/open/metal_tile,
 /area/stalker/blowout/buildings)
 "cw" = (
@@ -287,7 +277,6 @@
 /area/stalker/blowout/outdoor)
 "cG" = (
 /obj/effect/decal/cleanable/blood,
-/obj/item/reagent_containers/food/snacks/meat/slab/meatproduct,
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/mud,
 /area/stalker/buildings/mercenary)
@@ -305,11 +294,10 @@
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "cU" = (
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/stalker/floor/digable/swamp,
 /area/stalker/blowout/outdoor)
 "cZ" = (
-/obj/structure/stalker/cacheable/junk_tv,
+/obj/structure/stalker/old_tv,
 /turf/open/concrete_slab,
 /area/stalker/blowout/buildings)
 "da" = (
@@ -320,7 +308,7 @@
 /area/stalker/blowout/buildings)
 "dc" = (
 /obj/structure/stalker/shelf,
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/buildings/mercenary)
 "dd" = (
 /turf/open/grass,
@@ -401,9 +389,6 @@
 /turf/closed/wall/concrete,
 /area/stalker/blowout/buildings)
 "dA" = (
-/obj/structure/stalker/cacheable/pech{
-	dir = 8
-	},
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "dE" = (
@@ -428,7 +413,7 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "dJ" = (
-/obj/structure/flora/tree/jungle,
+
 /turf/open/path,
 /area/stalker/blowout/outdoor)
 "dL" = (
@@ -437,7 +422,7 @@
 	pixel_y = 30
 	},
 /obj/structure/filingcabinet/employment,
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/buildings/mercenary)
 "dQ" = (
 /obj/structure/cache/crate/big{
@@ -448,7 +433,6 @@
 /turf/open/ceramic_tile,
 /area/stalker/buildings/mercenary)
 "dT" = (
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/grass,
 /area/awaymission)
 "ea" = (
@@ -663,7 +647,7 @@
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
 "fr" = (
-/obj/structure/stalker/cacheable/battery,
+/obj/structure/stalker/radiator,
 /obj/effect/abstract/radiation/low,
 /turf/closed/wall/concrete,
 /area/stalker/blowout/buildings)
@@ -683,7 +667,6 @@
 /area/stalker/blowout/buildings)
 "fy" = (
 /obj/effect/abstract/radiation/low,
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "fz" = (
@@ -798,7 +781,7 @@
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "gt" = (
-/obj/structure/stalker/cacheable/radiole,
+/obj/structure/stalker/radio,
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "gu" = (
@@ -858,7 +841,7 @@
 /turf/open/grass,
 /area/stalker/blowout/buildings)
 "gR" = (
-/obj/structure/flora/tree/jungle/small,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "gT" = (
@@ -871,7 +854,7 @@
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "gX" = (
-/obj/structure/flora/tree/jungle,
+
 /obj/effect/abstract/radiation/low,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
@@ -880,7 +863,7 @@
 /turf/open/ceramic_tile,
 /area/stalker/buildings/mercenary)
 "hb" = (
-/obj/machinery/microwave/stove,
+/obj/machinery/stove,
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "hf" = (
@@ -934,7 +917,6 @@
 /turf/open/floor/plasteel/stairs/medium/stalker,
 /area/stalker/blowout/outdoor)
 "hK" = (
-/obj/structure/flora/ausbushes/sparsegrass,
 /obj/effect/abstract/radiation/medium,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
@@ -965,14 +947,10 @@
 	},
 /area/stalker/blowout/buildings)
 "hV" = (
-/obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/fence,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "hW" = (
-/obj/structure/stalker/cacheable/pech{
-	dir = 8
-	},
 /turf/open/wood/old,
 /area/stalker/blowout/buildings)
 "ia" = (
@@ -998,7 +976,7 @@
 "im" = (
 /obj/effect/zona_anomaly/electro,
 /obj/effect/abstract/radiation/medium,
-/turf/open/floor/plasteel/dark,
+/turf/open/metal_tile/diamond,
 /area/stalker/blowout/buildings)
 "in" = (
 /obj/structure/bed/stalker/matras{
@@ -1019,7 +997,7 @@
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "it" = (
-/obj/structure/stalker/cacheable/junk_micro,
+/obj/structure/cache/junk_micro,
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "ix" = (
@@ -1055,7 +1033,6 @@
 /area/stalker/blowout/buildings)
 "iI" = (
 /obj/effect/abstract/radiation/low,
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "iJ" = (
@@ -1131,7 +1108,7 @@
 "jp" = (
 /obj/structure/table/stalker/wood,
 
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/buildings/mercenary)
 "jr" = (
 /obj/effect/zona_anomaly/burnt_fuzz,
@@ -1149,7 +1126,6 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "jC" = (
-/obj/item/toy/beach_ball/holoball,
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "jE" = (
@@ -1276,7 +1252,6 @@
 /turf/open/mud,
 /area/stalker/buildings/mercenary)
 "kx" = (
-/obj/item/trash/papershreds,
 /turf/open/wood,
 /area/stalker/buildings/mercenary)
 "kz" = (
@@ -1312,7 +1287,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/stalker/cacheable/oldcomputer/dirty,
+/obj/structure/stalker/old_computer,
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
 "kU" = (
@@ -1399,7 +1374,6 @@
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "lv" = (
-/obj/item/trash/papershreds,
 /obj/effect/abstract/radiation/low,
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
@@ -1464,7 +1438,7 @@
 /obj/structure/sign/plaques/golden{
 	pixel_y = 31
 	},
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/buildings/mercenary)
 "lQ" = (
 /turf/open/wood,
@@ -1476,7 +1450,6 @@
 /turf/open/metal_tile/diamond,
 /area/stalker/blowout/buildings)
 "lS" = (
-/obj/item/trash/papershreds,
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "lT" = (
@@ -1525,16 +1498,13 @@
 /turf/closed/wall/stalker/store,
 /area/stalker/blowout/buildings)
 "mk" = (
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "ml" = (
-/obj/structure/flora/ausbushes/fullgrass,
+
 /turf/open/gravel,
 /area/stalker/blowout/outdoor)
 "mu" = (
-/obj/structure/flora/ausbushes/palebush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "mw" = (
@@ -1602,7 +1572,7 @@
 	},
 /area/stalker/blowout/outdoor)
 "mU" = (
-/obj/structure/flora/tree/jungle,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "mY" = (
@@ -1758,7 +1728,6 @@
 /turf/open/concrete_slab,
 /area/stalker/blowout/buildings)
 "os" = (
-/obj/structure/flora/ausbushes/wildplant/root/wild_garlic,
 /turf/open/gravel,
 /area/stalker/blowout/outdoor)
 "ot" = (
@@ -1860,11 +1829,10 @@
 /turf/open/mud,
 /area/stalker/buildings/mercenary)
 "pf" = (
-/obj/structure/stalker/cacheable/oldcovertatteredtwo,
+/obj/structure/stalker/oldcovertatteredtwo,
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "pi" = (
-/obj/structure/flora/ausbushes/palebush,
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "pj" = (
@@ -1940,7 +1908,6 @@
 /turf/open/wood,
 /area/stalker/buildings/mercenary)
 "pK" = (
-/obj/structure/flora/ausbushes,
 /turf/open/gravel,
 /area/stalker/blowout/outdoor)
 "pL" = (
@@ -1984,7 +1951,6 @@
 	},
 /area/stalker/blowout/buildings)
 "pT" = (
-/obj/structure/flora/ausbushes/leafybush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "pU" = (
@@ -1992,7 +1958,6 @@
 /turf/open/wood,
 /area/stalker/buildings/mercenary)
 "pV" = (
-/obj/structure/flora/ausbushes/sparsegrass,
 /obj/effect/abstract/radiation/low,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
@@ -2038,7 +2003,7 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "qj" = (
-/obj/structure/stalker/cacheable/shitok,
+/obj/structure/cache/crate,
 /turf/closed/wall/concrete,
 /area/stalker/blowout/buildings)
 "qm" = (
@@ -2047,7 +2012,7 @@
 	dir = 1
 	},
 /obj/effect/landmark/latejoin/mercenary_sql,
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/buildings/mercenary)
 "qn" = (
 /obj/structure/flora/rock/pile,
@@ -2079,7 +2044,6 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "qA" = (
-/obj/item/trash/papershreds,
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "qD" = (
@@ -2121,19 +2085,16 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "qV" = (
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "qX" = (
 /obj/structure/stalker/step/step2{
 	dir = 4
 	},
-/obj/structure/flora/tree/jungle,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "qY" = (
-/obj/structure/flora/ausbushes,
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "ra" = (
@@ -2141,7 +2102,7 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "rb" = (
-/obj/structure/stalker/cacheable/battery,
+/obj/structure/stalker/radiator,
 /obj/effect/abstract/radiation/low,
 /turf/closed/wall/stalker/store,
 /area/stalker/blowout/buildings)
@@ -2186,7 +2147,7 @@
 	},
 /area/stalker/blowout/outdoor)
 "rs" = (
-/obj/structure/holohoop,
+/obj/structure/hoop,
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "rA" = (
@@ -2211,7 +2172,7 @@
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "rM" = (
-/obj/structure/table/stalker/wood/bar,
+/turf/open/wood,
 /turf/open/mud,
 /area/stalker/buildings/mercenary)
 "rR" = (
@@ -2333,11 +2294,10 @@
 /turf/open/mud,
 /area/stalker/buildings/mercenary)
 "sH" = (
-/obj/structure/stalker/cacheable/oldcoverblue,
+/obj/structure/stalker/oldcoverblue,
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "sK" = (
-/obj/structure/flora/ausbushes/palebush,
 /turf/open/stalker/floor/digable/swamp,
 /area/stalker/blowout/outdoor)
 "sN" = (
@@ -2382,7 +2342,7 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "td" = (
-/obj/structure/stalker/cacheable/fiveshina,
+/obj/structure/cache/tires,
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "te" = (
@@ -2419,7 +2379,7 @@
 	icon_state = "tube";
 	tag = "icon-tube1 (EAST)"
 	},
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/buildings/mercenary)
 "tk" = (
 /obj/effect/abstract/radiation/low,
@@ -2552,7 +2512,6 @@
 /turf/open/ceramic_tile,
 /area/stalker/blowout/outdoor)
 "uv" = (
-/obj/item/trash/rustedbadge,
 /turf/open/wood,
 /area/stalker/buildings/mercenary)
 "uw" = (
@@ -2623,14 +2582,14 @@
 /turf/open/wood/old,
 /area/stalker/blowout/buildings)
 "uR" = (
-/obj/structure/table/stalker/wood/bar,
+/turf/open/wood,
 /obj/item/pizzabox/pineapple{
 	pixel_y = 16
 	},
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "uS" = (
-/obj/structure/stalker/cacheable/battery,
+/obj/structure/stalker/radiator,
 /turf/closed/wall/concrete,
 /area/stalker/blowout/buildings)
 "uY" = (
@@ -2688,11 +2647,11 @@
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "vk" = (
-/obj/structure/stalker/cacheable/tv_old/broken,
+/obj/structure/stalker/old_tv,
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "vl" = (
-/obj/structure/table/stalker/wood/bar,
+/turf/open/wood,
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "vn" = (
@@ -2735,13 +2694,13 @@
 /turf/open/wood/old,
 /area/stalker/blowout/buildings)
 "vy" = (
-/obj/structure/flora/ausbushes/fullgrass,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "vA" = (
 /obj/effect/abstract/radiation/medium,
 /mob/living/simple_animal/hostile/mutant/snork,
-/turf/open/floor/plasteel/dark,
+/turf/open/metal_tile/diamond,
 /area/stalker/blowout/buildings)
 "vI" = (
 /obj/structure/stalker/radiator{
@@ -2770,7 +2729,7 @@
 /turf/open/mud,
 /area/stalker/buildings/mercenary)
 "vU" = (
-/obj/item/trash/brokedevice/echobroke/one,
+/obj/item/trash/stalker/electronics_scrap/broken_echo,
 /turf/open/wood,
 /area/stalker/buildings/mercenary)
 "vW" = (
@@ -2782,7 +2741,7 @@
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "wd" = (
-/obj/structure/holohoop{
+/obj/structure/hoop{
 	dir = 8
 	},
 /turf/open/wood,
@@ -2819,7 +2778,6 @@
 /turf/open/metal_tile/diamond,
 /area/stalker/blowout/buildings)
 "ws" = (
-/obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/rock,
 /obj/effect/abstract/radiation/low,
 /obj/effect/abstract/radiation/medium,
@@ -2862,7 +2820,6 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "wN" = (
-/obj/structure/flora/ausbushes/sparsegrass,
 /obj/effect/abstract/radiation/low,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
@@ -2916,7 +2873,7 @@
 /turf/open/wood,
 /area/stalker/buildings/mercenary)
 "xk" = (
-/obj/structure/stalker/cacheable/tv_old/broken,
+/obj/structure/stalker/old_tv,
 /turf/open/mud,
 /area/stalker/buildings/mercenary)
 "xm" = (
@@ -2932,7 +2889,7 @@
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "xu" = (
-/obj/structure/flora/tree/jungle,
+
 /turf/open/grass,
 /area/awaymission)
 "xw" = (
@@ -2947,7 +2904,6 @@
 	},
 /obj/structure/cache/tires/t3b,
 /obj/effect/abstract/radiation/medium,
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "xB" = (
@@ -2997,8 +2953,6 @@
 /turf/closed/wall/concrete,
 /area/stalker/blowout/buildings)
 "xZ" = (
-/obj/structure/flora/ausbushes/pointybush,
-
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "yb" = (
@@ -3034,7 +2988,7 @@
 	dir = 8;
 	tag = "icon-tube1 (WEST)"
 	},
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/buildings/mercenary)
 "yo" = (
 /turf/open/path,
@@ -3069,7 +3023,6 @@
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
 "yx" = (
-/obj/structure/flora/ausbushes/stalkybush,
 /turf/open/stalker/floor/digable/swamp,
 /area/stalker/blowout/outdoor)
 "yz" = (
@@ -3081,7 +3034,7 @@
 /turf/open/ceramic_tile,
 /area/stalker/buildings/mercenary)
 "yC" = (
-/obj/structure/cache/tires/t2a
+/obj/structure/cache/tires/t2a,
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "yD" = (
@@ -3145,7 +3098,7 @@
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "yX" = (
-/obj/structure/stalker/cacheable/gasstove2,
+/obj/structure/cache/old_gas_stove,
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "yY" = (
@@ -3176,7 +3129,7 @@
 /turf/open/ceramic_tile,
 /area/stalker/blowout/outdoor)
 "zk" = (
-/obj/structure/stalker/cacheable/gasstove1,
+/obj/structure/cache/old_gas_stove,
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "zm" = (
@@ -3184,7 +3137,7 @@
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "zn" = (
-/obj/structure/chair/wood/alt,
+/obj/structure/chair/wood,
 /obj/effect/abstract/radiation/low,
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
@@ -3231,7 +3184,6 @@
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "zE" = (
-/obj/structure/flora/ausbushes/sparsegrass,
 /obj/effect/abstract/radiation/low,
 /obj/effect/abstract/radiation/medium,
 /turf/open/grass,
@@ -3262,16 +3214,14 @@
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
 "zS" = (
-/obj/item/reagent_containers/food/drinks/bottle/whiskey,
+/obj/item/reagent_containers/cup/glass/bottle/whiskey,
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "zT" = (
 /obj/effect/zona_anomaly/electro,
-/obj/structure/flora/ausbushes/stalkybush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "zX" = (
-/obj/structure/flora/ausbushes/leafybush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "zY" = (
@@ -3402,7 +3352,6 @@
 /turf/closed/wall/concrete,
 /area/stalker/blowout/outdoor)
 "AZ" = (
-/obj/item/trash/woodenrods,
 /obj/effect/abstract/radiation/low,
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
@@ -3422,7 +3371,6 @@
 /turf/open/ceramic_tile,
 /area/stalker/buildings/mercenary)
 "Be" = (
-/obj/structure/flora/ausbushes/pointybush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Bg" = (
@@ -3513,8 +3461,6 @@
 /turf/open/ceramic_tile/white,
 /area/stalker/blowout/outdoor)
 "BH" = (
-/obj/structure/flora/ausbushes/palebush,
-/obj/structure/flora/ausbushes/palebush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "BI" = (
@@ -3522,7 +3468,6 @@
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "BK" = (
-/obj/structure/flora/ausbushes/grassybush,
 /obj/effect/abstract/radiation/low,
 /turf/open/gravel,
 /area/stalker/blowout/outdoor)
@@ -3531,7 +3476,7 @@
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "BO" = (
-/obj/structure/stalker/cacheable/oldcoverblue,
+/obj/structure/stalker/oldcoverblue,
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
 "BQ" = (
@@ -3580,11 +3525,9 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Cn" = (
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "Cv" = (
-/obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Cy" = (
@@ -3613,7 +3556,7 @@
 /turf/open/ceramic_tile/white,
 /area/stalker/blowout/outdoor)
 "CJ" = (
-/obj/structure/stalker/cacheable/oldcovertattered,
+/obj/structure/stalker/oldcovertattered,
 /turf/open/ceramic_tile,
 /area/stalker/buildings/mercenary)
 "CL" = (
@@ -3631,7 +3574,7 @@
 /turf/open/wood,
 /area/stalker/buildings/mercenary)
 "CQ" = (
-/obj/structure/flora/tree/jungle,
+
 /obj/effect/abstract/radiation/low,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
@@ -3641,7 +3584,7 @@
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "CS" = (
-/obj/structure/flora/ausbushes/lavendergrass,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "CT" = (
@@ -3661,7 +3604,7 @@
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "CW" = (
-/obj/structure/stalker/cacheable/box,
+/obj/structure/stalker/box,
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "Db" = (
@@ -3779,7 +3722,6 @@
 /turf/open/ceramic_tile/white,
 /area/stalker/blowout/outdoor)
 "DQ" = (
-/obj/structure/flora/ausbushes/grassybush,
 /turf/closed/indestructible/rock,
 /area/stalker/blowout/outdoor)
 "DT" = (
@@ -3791,7 +3733,7 @@
 /turf/open/gravel,
 /area/stalker/blowout/outdoor)
 "DV" = (
-/obj/structure/flora/tree/jungle,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "DW" = (
@@ -3867,7 +3809,6 @@
 /turf/open/mud,
 /area/stalker/buildings/mercenary)
 "EI" = (
-/obj/item/toy/beach_ball/holoball,
 /obj/machinery/campfire,
 /turf/open/mud,
 /area/stalker/buildings/mercenary)
@@ -3888,7 +3829,6 @@
 	},
 /area/stalker/blowout/buildings)
 "EP" = (
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "EQ" = (
@@ -3925,13 +3865,12 @@
 	},
 /area/stalker/blowout/outdoor)
 "Fd" = (
-/obj/structure/flora/tree/jungle,
-/obj/structure/flora/tree/jungle,
+
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Ff" = (
-/obj/structure/flora/tree/jungle,
-/obj/structure/flora/ausbushes/grassybush,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Fm" = (
@@ -3952,7 +3891,6 @@
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "Fq" = (
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Fu" = (
@@ -3986,7 +3924,7 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "FD" = (
-/obj/item/trash/metalparts/metalplate/one,
+/obj/effect/spawner/random/stalker/metal_scrap,
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "FF" = (
@@ -4048,7 +3986,7 @@
 /turf/open/wood,
 /area/stalker/buildings/mercenary)
 "Gl" = (
-/obj/structure/flora/tree/jungle/small,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Gm" = (
@@ -4071,12 +4009,11 @@
 /turf/open/stalker/floor/digable/swamp,
 /area/stalker/blowout/outdoor)
 "Gt" = (
-/obj/structure/table/stalker/wood/bar,
+/turf/open/wood,
 /turf/open/ceramic_tile,
 /area/stalker/buildings/mercenary)
 "Gu" = (
 /obj/effect/abstract/radiation/medium,
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/grass{
 	layer = 1.8
 	},
@@ -4089,7 +4026,6 @@
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "Gx" = (
-/obj/structure/flora/ausbushes/leafybush,
 /obj/effect/abstract/radiation/low,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
@@ -4132,7 +4068,6 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "GR" = (
-/obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/fence{
 	dir = 4
 	},
@@ -4251,7 +4186,7 @@
 /turf/closed/indestructible/rock,
 /area/awaymission)
 "HF" = (
-/obj/item/trash/oldcircuitboard/four,
+/obj/item/trash/stalker/electronics_scrap/old_circuit_board,
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "HJ" = (
@@ -4312,7 +4247,7 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Ik" = (
-/obj/structure/table/stalker/wood/bar,
+/turf/open/wood,
 /turf/open/grass,
 /area/stalker/blowout/buildings)
 "Il" = (
@@ -4418,11 +4353,11 @@
 	},
 /area/stalker/blowout/outdoor)
 "IT" = (
-/obj/item/trash/metalparts/metalplate,
+/obj/effect/spawner/random/stalker/metal_scrap,
 /turf/open/concrete_slab,
 /area/stalker/blowout/buildings)
 "IU" = (
-/obj/structure/stalker/cacheable/gasstove1,
+/obj/structure/cache/old_gas_stove,
 /turf/open/metal_tile,
 /area/stalker/blowout/buildings)
 "IX" = (
@@ -4508,7 +4443,7 @@
 /turf/open/ceramic_tile,
 /area/stalker/blowout/outdoor)
 "Jz" = (
-/obj/item/trash/metalparts/metalplate,
+/obj/effect/spawner/random/stalker/metal_scrap,
 /turf/open/wood,
 /area/stalker/buildings/mercenary)
 "JA" = (
@@ -4533,7 +4468,7 @@
 /area/stalker/blowout/buildings)
 "JL" = (
 /obj/item/food/kolbasa,
-/obj/structure/flora/ausbushes/fullgrass,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "JM" = (
@@ -4545,7 +4480,6 @@
 /turf/open/concrete_slab,
 /area/stalker/blowout/buildings)
 "JP" = (
-/obj/structure/flora/ausbushes/palebush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "JR" = (
@@ -4605,7 +4539,7 @@
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "Kv" = (
-/obj/structure/holohoop{
+/obj/structure/hoop{
 	dir = 4
 	},
 /turf/open/wood,
@@ -4623,7 +4557,6 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "KC" = (
-/obj/item/trash/woodenrods,
 /turf/open/mud,
 /area/stalker/buildings/mercenary)
 "KF" = (
@@ -4662,7 +4595,7 @@
 "KU" = (
 /obj/effect/abstract/radiation/medium,
 /obj/effect/abstract/radiation/high,
-/turf/open/floor/plasteel/dark,
+/turf/open/metal_tile/diamond,
 /area/stalker/blowout/buildings)
 "KW" = (
 /obj/machinery/vending/stalker_sovietsoda/broken,
@@ -4712,7 +4645,7 @@
 /turf/open/concrete_slab,
 /area/stalker/blowout/outdoor)
 "LK" = (
-/obj/structure/holohoop{
+/obj/structure/hoop{
 	dir = 1
 	},
 /turf/open/asphalt,
@@ -4725,7 +4658,7 @@
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "LP" = (
-/obj/structure/stalker/cacheable/junk_tv,
+/obj/structure/stalker/old_tv,
 /obj/effect/abstract/radiation/low,
 /turf/open/wood,
 /area/stalker/blowout/buildings)
@@ -4752,7 +4685,6 @@
 /turf/open/concrete_slab,
 /area/stalker/blowout/outdoor)
 "LZ" = (
-/obj/structure/flora/ausbushes/palebush,
 /obj/effect/abstract/radiation/low,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
@@ -4766,9 +4698,6 @@
 /turf/open/metal_tile/diamond,
 /area/stalker/blowout/buildings)
 "Md" = (
-/obj/structure/stalker/cacheable/pech{
-	dir = 4
-	},
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "Me" = (
@@ -4827,7 +4756,6 @@
 /turf/open/ceramic_tile/white,
 /area/stalker/blowout/outdoor)
 "Mt" = (
-/obj/item/trash/woodenrods,
 /turf/open/wood,
 /area/stalker/blowout/outdoor)
 "Mw" = (
@@ -4849,7 +4777,7 @@
 /obj/structure/stalker/radiator{
 	dir = 6
 	},
-/obj/structure/stalker/cacheable/battery,
+/obj/structure/stalker/radiator,
 /turf/closed/wall/concrete,
 /area/stalker/blowout/buildings)
 "MD" = (
@@ -4916,7 +4844,7 @@
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "Na" = (
-/obj/structure/stalker/cacheable/shitok,
+/obj/structure/cache/crate,
 /turf/open/metal_tile,
 /area/stalker/blowout/buildings)
 "Ni" = (
@@ -4949,7 +4877,7 @@
 /turf/closed/wall/stalker/store,
 /area/stalker/blowout/buildings)
 "Np" = (
-/obj/structure/flora/tree/jungle,
+
 /turf/open/stalker/floor/digable/swamp,
 /area/stalker/blowout/outdoor)
 "Nq" = (
@@ -4970,7 +4898,7 @@
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "Nu" = (
-/obj/structure/flora/tree/jungle,
+
 /turf/closed/indestructible/rock,
 /area/stalker/blowout/outdoor)
 "Nx" = (
@@ -5015,8 +4943,6 @@
 	},
 /area/stalker/blowout/outdoor)
 "NO" = (
-/obj/structure/flora/ausbushes/pointybush,
-/obj/structure/flora/ausbushes/pointybush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "NP" = (
@@ -5097,12 +5023,11 @@
 /area/stalker/blowout/outdoor)
 "Oq" = (
 
-/obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/barricade/stalker/box,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Or" = (
-/obj/structure/stalker/cacheable/oldcovertatteredtwo,
+/obj/structure/stalker/oldcovertatteredtwo,
 /turf/open/ceramic_tile,
 /area/stalker/buildings/mercenary)
 "Os" = (
@@ -5113,7 +5038,7 @@
 /turf/closed/wall/stalker/store,
 /area/stalker/blowout/buildings)
 "Ot" = (
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/buildings/mercenary)
 "Ou" = (
 /obj/machinery/light{
@@ -5149,7 +5074,7 @@
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "OC" = (
-/obj/structure/stalker/cacheable/fiveshina,
+/obj/structure/cache/tires,
 /turf/open/concrete_slab,
 /area/stalker/blowout/buildings)
 "OE" = (
@@ -5278,8 +5203,7 @@
 /turf/open/concrete_slab,
 /area/stalker/blowout/buildings)
 "Px" = (
-/obj/structure/flora/tree/jungle,
-/obj/structure/flora/ausbushes/grassybush,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Pz" = (
@@ -5310,7 +5234,6 @@
 /turf/open/ceramic_tile,
 /area/stalker/buildings/mercenary)
 "PO" = (
-/obj/structure/flora/ausbushes/grassybush,
 /obj/effect/abstract/radiation/low,
 /obj/effect/abstract/radiation/low,
 /obj/effect/abstract/radiation/low,
@@ -5407,7 +5330,6 @@
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "QE" = (
-/obj/structure/flora/ausbushes/pointybush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "QH" = (
@@ -5428,7 +5350,6 @@
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "QN" = (
-/obj/structure/flora/ausbushes/leafybush,
 /obj/effect/zona_anomaly/vortex,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
@@ -5453,7 +5374,6 @@
 /area/stalker/blowout/outdoor)
 "QY" = (
 /obj/effect/abstract/radiation/low,
-/obj/structure/flora/ausbushes/grassybush,
 /turf/closed/wall/concrete,
 /area/stalker/blowout/buildings)
 "QZ" = (
@@ -5491,7 +5411,7 @@
 /area/stalker/blowout/outdoor)
 "Rf" = (
 /obj/effect/abstract/radiation/medium,
-/turf/open/floor/plasteel/dark,
+/turf/open/metal_tile/diamond,
 /area/stalker/blowout/buildings)
 "Rk" = (
 /obj/machinery/light,
@@ -5569,7 +5489,7 @@
 /obj/structure/stalker/radiator{
 	dir = 6
 	},
-/obj/structure/stalker/cacheable/battery,
+/obj/structure/stalker/radiator,
 /obj/effect/abstract/radiation/low,
 /turf/closed/wall/concrete,
 /area/stalker/blowout/buildings)
@@ -5587,7 +5507,7 @@
 /turf/open/ceramic_tile,
 /area/stalker/buildings/mercenary)
 "RR" = (
-/obj/structure/stalker/cacheable/shitok,
+/obj/structure/cache/crate,
 /turf/closed/wall/white_brick,
 /area/stalker/blowout/buildings)
 "RU" = (
@@ -5684,7 +5604,7 @@
 	},
 /area/stalker/blowout/buildings)
 "SC" = (
-/obj/structure/stalker/cacheable/vendmachine22,
+/obj/structure/cache/broken_vendor,
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "SG" = (
@@ -5705,12 +5625,10 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "SJ" = (
-/obj/item/trash/woodenrods,
 /obj/machinery/light,
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
 "SL" = (
-/obj/structure/flora/ausbushes/grassybush,
 /obj/effect/abstract/radiation/low,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
@@ -5743,7 +5661,7 @@
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "SX" = (
-/turf/open/floor/plasteel/dark,
+/turf/open/metal_tile/diamond,
 /area/stalker/blowout/buildings)
 "Tg" = (
 /obj/structure/fence,
@@ -5773,7 +5691,7 @@
 /obj/structure/closet/crate/stalker_stash/medium,
 /obj/effect/abstract/radiation/medium,
 /obj/effect/abstract/radiation/high,
-/turf/open/floor/plasteel/dark,
+/turf/open/metal_tile/diamond,
 /area/stalker/blowout/buildings)
 "Tr" = (
 /obj/machinery/campfire/barrel,
@@ -5790,7 +5708,7 @@
 "TA" = (
 /obj/structure/table/stalker/wood,
 /obj/item/flashlight/lamp,
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/buildings/mercenary)
 "TB" = (
 /obj/structure/stalker/blocks/vanish/sandbags{
@@ -5866,7 +5784,6 @@
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "TZ" = (
-/obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Ud" = (
@@ -5952,7 +5869,7 @@
 /turf/open/concrete_slab,
 /area/stalker/blowout/outdoor)
 "UP" = (
-/obj/structure/stalker/cacheable/battery,
+/obj/structure/stalker/radiator,
 /turf/closed/wall/white_brick,
 /area/stalker/blowout/buildings)
 "UQ" = (
@@ -5986,11 +5903,10 @@
 	desc = "A drawing of the known areas of the Zone.";
 	pixel_y = 30
 	},
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/buildings/mercenary)
 "Ve" = (
 /obj/effect/decal/cleanable/blood,
-/obj/item/reagent_containers/food/snacks/meat/slab/meatproduct,
 /turf/open/mud,
 /area/stalker/buildings/mercenary)
 "Vh" = (
@@ -5998,7 +5914,6 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Vj" = (
-/obj/item/trash/woodenrods,
 /turf/open/concrete_slab,
 /area/stalker/blowout/buildings)
 "Vl" = (
@@ -6050,7 +5965,6 @@
 /turf/open/concrete_slab,
 /area/stalker/buildings/mercenary)
 "VA" = (
-/obj/structure/flora/ausbushes/stalkybush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "VB" = (
@@ -6059,7 +5973,7 @@
 /area/stalker/blowout/buildings)
 "VD" = (
 /obj/structure/cache/closet,
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/buildings/mercenary)
 "VJ" = (
 /obj/structure/fence{
@@ -6068,7 +5982,7 @@
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "VK" = (
-/obj/structure/stalker/cacheable/oldcoverblue,
+/obj/structure/stalker/oldcoverblue,
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "VL" = (
@@ -6076,7 +5990,7 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "VM" = (
-/obj/structure/stalker/cacheable/junk_tv,
+/obj/structure/stalker/old_tv,
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "VN" = (
@@ -6182,7 +6096,6 @@
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "WB" = (
-/obj/structure/flora/ausbushes/grassybush,
 /obj/effect/decal/cleanable/blood/footprints,
 /turf/open/gravel,
 /area/stalker/blowout/outdoor)
@@ -6191,16 +6104,13 @@
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "WF" = (
-/obj/structure/flora/ausbushes/sparsegrass,
 /obj/effect/abstract/radiation/low,
 /turf/closed/wall/white_brick,
 /area/stalker/blowout/buildings)
 "WG" = (
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "WL" = (
-/obj/item/trash/papershreds,
 /obj/structure/bed/stalker/metal,
 /turf/open/wood,
 /area/stalker/blowout/buildings)
@@ -6209,11 +6119,9 @@
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "WO" = (
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "WP" = (
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/gravel,
 /area/stalker/blowout/outdoor)
 "WR" = (
@@ -6277,7 +6185,7 @@
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "Xp" = (
-/obj/structure/chair/wood/two,
+/obj/structure/chair/wood,
 /turf/open/grass,
 /area/stalker/buildings/mercenary)
 "Xt" = (
@@ -6293,7 +6201,7 @@
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "Xw" = (
-/obj/item/reagent_containers/food/drinks/bottle/whiskey,
+/obj/item/reagent_containers/cup/glass/bottle/whiskey,
 /turf/open/wood,
 /area/stalker/buildings/mercenary)
 "XA" = (
@@ -6334,7 +6242,7 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "XN" = (
-/obj/item/trash/metalparts/metalplate/one,
+/obj/effect/spawner/random/stalker/metal_scrap,
 /turf/open/wood,
 /area/stalker/blowout/buildings)
 "XO" = (
@@ -6394,7 +6302,6 @@
 /area/stalker/blowout/outdoor)
 "Yt" = (
 
-/obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Yy" = (
@@ -6416,7 +6323,6 @@
 /turf/open/gravel,
 /area/stalker/blowout/buildings)
 "YD" = (
-/obj/item/trash/woodenrods,
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
 "YG" = (
@@ -6453,7 +6359,6 @@
 /turf/open/concrete_slab,
 /area/stalker/blowout/buildings)
 "YN" = (
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/grass{
 	layer = 1.8
 	},
@@ -6468,7 +6373,7 @@
 /turf/open/wood,
 /area/stalker/buildings/mercenary)
 "YV" = (
-/obj/structure/flora/ausbushes/fullgrass,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Za" = (
@@ -6501,7 +6406,6 @@
 /turf/open/ceramic_tile,
 /area/stalker/blowout/outdoor)
 "Zq" = (
-/obj/structure/flora/ausbushes/pointybush,
 /turf/open/gravel,
 /area/stalker/blowout/outdoor)
 "Zr" = (
@@ -6522,11 +6426,9 @@
 /turf/open/asphalt,
 /area/stalker/blowout/outdoor)
 "Zw" = (
-/obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Zz" = (
-/obj/structure/flora/ausbushes/leafybush,
 /obj/effect/abstract/radiation/low,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
@@ -6568,7 +6470,6 @@
 /area/stalker/blowout/outdoor)
 "ZK" = (
 /obj/effect/abstract/radiation/low,
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "ZL" = (
@@ -6576,7 +6477,7 @@
 /turf/open/concrete_slab,
 /area/stalker/blowout/buildings)
 "ZM" = (
-/obj/structure/stalker/cacheable/junk_micro,
+/obj/structure/cache/junk_micro,
 /turf/open/metal_tile,
 /area/stalker/blowout/buildings)
 "ZN" = (
@@ -6587,7 +6488,6 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "ZO" = (
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "ZQ" = (

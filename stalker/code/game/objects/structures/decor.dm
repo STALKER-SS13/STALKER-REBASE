@@ -149,7 +149,7 @@
 	name = "slab paver"
 	desc = "A paver - relatively small concrete slab that acts as decoration."
 	icon = 'stalker/icons/obj/structure/paths.dmi'
-	icon_state = "sp"
+	icon_state = "bar_plate1"
 	density = FALSE
 
 /obj/structure/stalker/rozetka

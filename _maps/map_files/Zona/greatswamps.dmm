@@ -29,7 +29,7 @@
 "uF" = (/obj/structure/broken_car/tractor/red{icon_state = "0,1"},/turf/open/stalker/floor/digable/swamp,/area/stalker/blowout/outdoor)
 "vB" = (/obj/structure/broken_car/moskvich/north/three{icon_state = "3"},/turf/open/stalker/floor/digable/swamp,/area/stalker/blowout/outdoor)
 "xa" = (/obj/structure/broken_car/moskvich/south/three{icon_state = "4"},/turf/open/stalker/floor/digable/swamp,/area/stalker/blowout/outdoor)
-"xT" = (/turf/open/stalker/floor/wood/black,/area/stalker/blowout/outdoor)
+"xT" = (/turf/open/wood,/area/stalker/blowout/outdoor)
 "Cm" = (/obj/structure/broken_car/moskvich/north/hyi{icon_state = "5"},/turf/open/stalker/floor/digable/swamp,/area/stalker/blowout/outdoor)
 "Db" = (/obj/structure/broken_car/moskvich/north{icon_state = "6"},/turf/open/stalker/floor/digable/swamp,/area/stalker/blowout/outdoor)
 "DI" = (/obj/structure/broken_car/tractor{icon_state = "3,0"},/turf/open/stalker/floor/digable/swamp,/area/stalker/blowout/outdoor)

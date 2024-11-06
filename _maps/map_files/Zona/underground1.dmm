@@ -1834,7 +1834,7 @@
 /area/stalker/agroprom/caves)
 "es" = (
 /obj/structure/cache/closet,
-/obj/item/clothing/suit/kozhanka/tourist/coat,
+/obj/item/clothing/suit/kozhanka/tourist,
 /obj/item/clothing/under/color/switer/tourist/suspenders,
 /turf/open/wood,
 /area/stalker/cordon/buildings)
@@ -4262,7 +4262,7 @@
 /turf/open/ceramic_tile/white,
 /area/stalker/agroprom/caves)
 "kO" = (
-/obj/structure/target_stake,
+
 /turf/open/ceramic_tile/white,
 /area/stalker/agroprom/caves)
 "kP" = (
@@ -4548,7 +4548,7 @@
 /turf/closed/wall/white_brick,
 /area/stalker/agroprom/warehouses)
 "lA" = (
-/obj/structure/table/stalker/wood/bar,
+/turf/open/wood,
 /turf/open/metal_tile,
 /area/stalker/agroprom/warehouses)
 "lB" = (
@@ -5321,7 +5321,7 @@
 /turf/open/grass,
 /area/stalker)
 "nA" = (
-/obj/structure/table/stalker/wood/bar,
+/turf/open/wood,
 
 /turf/open/metal_tile,
 /area/stalker/agroprom/warehouses)

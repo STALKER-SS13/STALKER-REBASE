@@ -94,7 +94,7 @@
 /area/stalker/blowout/outdoor)
 "bi" = (
 /obj/effect/abstract/radiation/low,
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "bm" = (
 /obj/structure/broken_car/gryzovik/west{
@@ -115,7 +115,7 @@
 /turf/open/ceramic_tile/white,
 /area/stalker/blowout/buildings)
 "bx" = (
-/obj/item/gun/ballistic/automatic/ak74/blackout,
+/obj/item/gun/ballistic/automatic/ak74,
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
 "by" = (
@@ -269,7 +269,7 @@
 /area/stalker/blowout/outdoor)
 "dc" = (
 /obj/structure/cache/crate/green,
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/blowout/outdoor)
 "df" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
@@ -288,7 +288,7 @@
 	teleport_y = 393;
 	teleport_z = 12
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "dl" = (
 /obj/structure/broken_car/gryzovik/south{
@@ -400,7 +400,7 @@
 /turf/open/metal_tile/diamond,
 /area/stalker/blowout/outdoor)
 "eD" = (
-/obj/structure/flora/tree/jungle/small,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "eE" = (
@@ -497,7 +497,7 @@
 "fU" = (
 /obj/structure/barricade/stalker/wood,
 /obj/structure/mineral_door/wood,
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/blowout/outdoor)
 "fX" = (
 
@@ -520,7 +520,7 @@
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "gh" = (
-/obj/structure/stalker/cacheable/shitok,
+/obj/structure/cache/crate,
 /turf/closed/wall/brick,
 /area/stalker/blowout/buildings)
 "gi" = (
@@ -552,7 +552,7 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "gM" = (
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/blowout/outdoor)
 "gN" = (
 /obj/structure/grille/fence/directional/concrete{
@@ -700,7 +700,7 @@
 /turf/open/metal_tile/diamond,
 /area/stalker/blowout/outdoor)
 "is" = (
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "iv" = (
 /obj/structure/stalker/doski/doski_alt2,
@@ -793,7 +793,7 @@
 	teleport_y = 155;
 	teleport_z = 12
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "jh" = (
 /obj/machinery/campfire,
@@ -845,7 +845,7 @@
 /turf/open/metal_tile/diamond,
 /area/stalker/blowout/outdoor)
 "kc" = (
-/obj/structure/flora/tree/jungle,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "ke" = (
@@ -861,7 +861,7 @@
 /obj/structure/fence{
 	dir = 4
 	},
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/blowout/outdoor)
 "kw" = (
 /obj/effect/abstract/radiation/high,
@@ -915,9 +915,6 @@
 /turf/open/metal_tile/diamond,
 /area/stalker/blowout/buildings)
 "lf" = (
-/obj/structure/stalker/tree{
-	dir = 3
-	},
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "ln" = (
@@ -934,9 +931,6 @@
 /turf/open/grass,
 /area/stalker/blowout/buildings)
 "lu" = (
-/obj/structure/stalker/tree/leaflessred{
-	dir = 3
-	},
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "ly" = (
@@ -1004,7 +998,7 @@
 /obj/effect/step_trigger/teleporter{
 	dir = 1
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "mi" = (
 /obj/structure/bed/stalker/mattress_bloodstain,
@@ -1024,7 +1018,7 @@
 /turf/closed/indestructible/rock,
 /area/stalker/blowout/outdoor)
 "mu" = (
-/obj/structure/flora/tree/jungle,
+
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "mw" = (
@@ -1073,7 +1067,7 @@
 /turf/open/metal_tile/diamond,
 /area/stalker/blowout/outdoor)
 "mS" = (
-/obj/structure/flora/tree/jungle/small,
+
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "mU" = (
@@ -1088,7 +1082,7 @@
 /area/stalker/buildings/bandit)
 "mX" = (
 /obj/structure/cache/crate,
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/blowout/outdoor)
 "nb" = (
 /obj/structure/mineral_door/wood,
@@ -1138,7 +1132,7 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "nO" = (
-/obj/structure/flora/tree/jungle,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "nP" = (
@@ -1149,7 +1143,7 @@
 /area/stalker/blowout/outdoor)
 "nU" = (
 /obj/structure/stalker/shelf,
-/obj/item/clothing/suit/hooded/kozhanka/banditka/coat,
+/obj/item/clothing/suit/hooded/kozhanka/bandit_coat,
 /turf/open/wood/old,
 /area/stalker/buildings/bandit)
 "nW" = (
@@ -1249,7 +1243,7 @@
 	teleport_y = 396;
 	teleport_z = 12
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "oR" = (
 /obj/structure/cache/crate/green,
@@ -1372,7 +1366,7 @@
 /area/stalker/blowout/outdoor)
 "pR" = (
 /obj/structure/mineral_door/wood,
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/blowout/outdoor)
 "pS" = (
 /obj/structure/broken_car/gryzovik/south{
@@ -1440,7 +1434,7 @@
 	teleport_y = 373;
 	teleport_z = 12
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "qA" = (
 /obj/structure/mineral_door/wood,
@@ -1619,7 +1613,7 @@
 /area/stalker/blowout/buildings)
 "sK" = (
 /obj/structure/cache/crate/big,
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/blowout/outdoor)
 "sO" = (
 /obj/structure/cache/crate/big,
@@ -1666,16 +1660,12 @@
 /turf/open/metal_tile,
 /area/stalker/blowout/buildings)
 "tr" = (
-/obj/structure/stalker/tree{
-	dir = 3
-	},
-/obj/structure/stalker/tree{
-	dir = 3
-	},
+
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "tt" = (
-/obj/structure/stalker/cacheable/battery,
+/obj/structure/stalker/radiator,
 /turf/closed/wall/white_brick,
 /area/stalker/buildings/bandit)
 "tw" = (
@@ -2002,7 +1992,7 @@
 /turf/open/metal_tile/diamond,
 /area/stalker/blowout/outdoor)
 "xv" = (
-/obj/structure/stalker/cacheable/junk_cabinet,
+/obj/structure/cache/burnt_cabinet,
 /turf/open/mud,
 /area/stalker/blowout/buildings)
 "xw" = (
@@ -2016,7 +2006,6 @@
 /turf/open/metal_tile,
 /area/stalker/blowout/outdoor)
 "xz" = (
-/obj/structure/flora/ausbushes/grassybush,
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "xB" = (
@@ -2175,9 +2164,7 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "zE" = (
-/obj/structure/stalker/tree{
-	dir = 3
-	},
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "zN" = (
@@ -2238,7 +2225,7 @@
 /obj/structure/stalker/step/step2{
 	dir = 8
 	},
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/blowout/outdoor)
 "AC" = (
 /obj/machinery/light/small{
@@ -2488,7 +2475,7 @@
 /turf/open/mud,
 /area/stalker/blowout/buildings)
 "DZ" = (
-/obj/structure/stalker/cacheable/junk_cabinet,
+/obj/structure/cache/burnt_cabinet,
 /obj/effect/abstract/radiation/low,
 /turf/open/metal_tile,
 /area/stalker/blowout/buildings)
@@ -2682,7 +2669,7 @@
 	teleport_y = 347;
 	teleport_z = 12
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "GU" = (
 /obj/structure/broken_car/gryzovik2/south{
@@ -2702,7 +2689,7 @@
 /area/stalker/buildings/kordon/banditbar)
 "Hb" = (
 /obj/effect/abstract/radiation/high,
-/obj/structure/closet/crate/stalker/blue/stash,
+/obj/structure/closet/crate/stalker_stash,
 /turf/open/mud,
 /area/stalker/blowout/outdoor)
 "Hf" = (
@@ -2867,7 +2854,7 @@
 /turf/open/mud,
 /area/stalker/blowout/buildings)
 "IB" = (
-/obj/structure/flora/ausbushes/fullgrass,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "IE" = (
@@ -2929,7 +2916,7 @@
 /turf/open/mud,
 /area/stalker/blowout/outdoor)
 "Ju" = (
-/obj/structure/flora/tree/jungle,
+
 /obj/effect/abstract/radiation/low,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
@@ -3025,9 +3012,7 @@
 /turf/open/metal_tile,
 /area/stalker/blowout/buildings)
 "KQ" = (
-/obj/structure/stalker/tree{
-	dir = 3
-	},
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "KW" = (
@@ -3193,7 +3178,7 @@
 /area/stalker/blowout/outdoor)
 "Nh" = (
 /obj/structure/fence/door,
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/blowout/outdoor)
 "Nj" = (
 /obj/effect/abstract/radiation/medium,
@@ -3236,7 +3221,7 @@
 /area/stalker/blowout/outdoor)
 "NR" = (
 /obj/structure/stalker/shelf,
-/obj/item/clothing/suit/hooded/kozhanka/banditka/coat/brown,
+/obj/item/clothing/suit/hooded/kozhanka/bandit_coat/brown,
 /turf/open/wood/old,
 /area/stalker/buildings/bandit)
 "NS" = (
@@ -3281,7 +3266,7 @@
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
 "Or" = (
-/obj/structure/flora/tree/jungle/small,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Os" = (
@@ -3310,7 +3295,7 @@
 /turf/open/mud,
 /area/stalker/blowout/outdoor)
 "OE" = (
-/obj/structure/stalker/cacheable/battery,
+/obj/structure/stalker/radiator,
 /turf/closed/wall/white_brick,
 /area/stalker/buildings/kordon/banditbar)
 "OJ" = (
@@ -3486,7 +3471,7 @@
 /turf/open/wood/old,
 /area/stalker/blowout/buildings)
 "RN" = (
-/obj/structure/flora/tree/jungle,
+
 /obj/effect/abstract/radiation/low,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
@@ -3562,7 +3547,7 @@
 	teleport_y = 127;
 	teleport_z = 12
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "Sx" = (
 
@@ -3601,7 +3586,7 @@
 /area/stalker/blowout/buildings)
 "SF" = (
 /obj/structure/barricade/stalker/box,
-/turf/open/stalker/floor/plasteel/plita/orange,
+/turf/open/metal_tile,
 /area/stalker/blowout/outdoor)
 "SG" = (
 /obj/structure/table/stalker/wood,
@@ -3670,7 +3655,7 @@
 /area/stalker/blowout/outdoor)
 "Tj" = (
 /obj/structure/stalker/shelf,
-/obj/item/clothing/suit/hooded/kozhanka/banditka/unique,
+/obj/item/clothing/suit/hooded/kozhanka/bandit/chainmail,
 /obj/item/gun/ballistic/shotgun/bm16/sawnoff,
 /turf/open/wood/old,
 /area/stalker/buildings/bandit)
@@ -3691,9 +3676,7 @@
 /area/stalker/blowout/buildings)
 "Tt" = (
 /obj/effect/abstract/radiation/low,
-/obj/structure/stalker/tree{
-	dir = 3
-	},
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Tv" = (
@@ -3712,7 +3695,6 @@
 /turf/open/metal_tile/diamond,
 /area/stalker/blowout/outdoor)
 "TE" = (
-/obj/structure/flora/ausbushes/ywflowers,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "TG" = (
@@ -3829,7 +3811,7 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "UX" = (
-/obj/structure/flora/tree/jungle,
+
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Va" = (
@@ -3885,7 +3867,7 @@
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
 "Vq" = (
-/obj/structure/table/stalker/wood/bar,
+/turf/open/wood,
 /turf/open/wood/old,
 /area/stalker/buildings/kordon/banditbar)
 "Vs" = (
@@ -3914,7 +3896,7 @@
 /area/stalker/blowout/outdoor)
 "VC" = (
 /obj/structure/barricade/stalker/wood,
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "VJ" = (
 /obj/structure/fence{
@@ -4036,7 +4018,7 @@
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
 "Xl" = (
-/obj/structure/stalker/cacheable/junk_cabinet,
+/obj/structure/cache/burnt_cabinet,
 /turf/open/metal_tile/diamond,
 /area/stalker/blowout/buildings)
 "Xp" = (
@@ -4110,9 +4092,7 @@
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
 "XR" = (
-/obj/structure/stalker/tree{
-	dir = 3
-	},
+
 /obj/effect/abstract/radiation/low,
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
@@ -4131,7 +4111,7 @@
 /turf/open/ceramic_tile,
 /area/stalker/blowout/buildings)
 "Ya" = (
-/obj/structure/flora/tree/jungle,
+
 /obj/effect/abstract/radiation/low,
 /obj/effect/abstract/radiation/low,
 /turf/open/grass,
@@ -4234,7 +4214,7 @@
 /turf/open/grass,
 /area/stalker/blowout/outdoor)
 "Zh" = (
-/obj/structure/flora/ausbushes/fullgrass,
+
 /turf/open/arid_soil,
 /area/stalker/blowout/outdoor)
 "Zj" = (

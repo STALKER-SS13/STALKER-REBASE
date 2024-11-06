@@ -6408,7 +6408,6 @@
 #include "stalker\code\game\objects\items\food\raw.dm"
 #include "stalker\code\game\objects\items\outfits\accessories.dm"
 #include "stalker\code\game\objects\items\outfits\backpack.dm"
-#include "stalker\code\game\objects\items\outfits\clothing.dm"
 #include "stalker\code\game\objects\items\outfits\face.dm"
 #include "stalker\code\game\objects\items\outfits\head.dm"
 #include "stalker\code\game\objects\items\outfits\suit.dm"
