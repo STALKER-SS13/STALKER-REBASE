@@ -19,7 +19,7 @@
 	attack_verb_simple = "claw"
 	speak_emote = list("growls!", "groans!")
 	death_message = "seizes up and falls limp!"
-	attack_sound = 'sound/weapons/punch1.ogg'
+	attack_sound = 'sound/items/weapons/punch1.ogg'
 	death_sound = 'stalker/sound/mobs/mutants/death/zombie_die_0.ogg'
 
 	speed = 0

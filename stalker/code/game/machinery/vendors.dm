@@ -26,7 +26,7 @@
 
 /obj/machinery/vending/stalker_sovietsoda
 	name = "\improper soda machine"
-	desc = "If you want to get cancer, might as well do it in style."
+	desc = "Old sweet water vending machine."
 	icon_state = "sovietsoda"
 	panel_type = "panel8"
 	products = list(

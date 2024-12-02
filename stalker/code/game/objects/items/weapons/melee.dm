@@ -12,7 +12,7 @@
 	force = 20
 	throwforce = 15
 	w_class = WEIGHT_CLASS_SMALL
-	hitsound = 'sound/weapons/bladeslice.ogg'
+	hitsound = 'sound/items/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacked", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut")
 	attack_verb_simple = list("attacked", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut")
 	sharpness = SHARP_EDGED
@@ -27,7 +27,7 @@
 	force = 25
 	throwforce = 20
 	w_class = WEIGHT_CLASS_SMALL
-	hitsound = 'sound/weapons/bladeslice.ogg'
+	hitsound = 'sound/items/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	attack_verb_simple = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_POINTY
@@ -44,7 +44,7 @@
 	throw_speed = 4
 	embed_type = /datum/embed_data/combat_knife
 	w_class = WEIGHT_CLASS_SMALL
-	hitsound = 'sound/weapons/bladeslice.ogg'
+	hitsound = 'sound/items/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("penetrated", "stabbed", "skewered", "pierced")
 	attack_verb_simple = list("penetrated", "stabbed", "skewered", "pierced")
 	sharpness = SHARP_EDGED
@@ -62,7 +62,7 @@
 	force = 25
 	throwforce = 25
 	w_class = WEIGHT_CLASS_SMALL
-	hitsound = 'sound/weapons/bladeslice.ogg'
+	hitsound = 'sound/items/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	attack_verb_simple = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_EDGED
@@ -80,7 +80,7 @@
 	force = 33
 	throwforce = 20
 	w_class = WEIGHT_CLASS_SMALL
-	hitsound = 'sound/weapons/bladeslice.ogg'
+	hitsound = 'sound/items/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	attack_verb_simple = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_EDGED
@@ -98,7 +98,7 @@
 	force = 25
 	throwforce = 20
 	w_class = WEIGHT_CLASS_SMALL
-	hitsound = 'sound/weapons/bladeslice.ogg'
+	hitsound = 'sound/items/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	attack_verb_simple = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_EDGED
@@ -123,7 +123,7 @@
 	force = 30
 	throwforce = 20
 	w_class = WEIGHT_CLASS_NORMAL
-	hitsound = 'sound/weapons/bladeslice.ogg'
+	hitsound = 'sound/items/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	attack_verb_simple = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_EDGED
@@ -200,7 +200,7 @@
 	throwforce = 15
 	wound_bonus = 10
 	w_class = WEIGHT_CLASS_NORMAL
-	hitsound = 'sound/weapons/bladeslice.ogg'
+	hitsound = 'sound/items/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	attack_verb_simple = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_EDGED
