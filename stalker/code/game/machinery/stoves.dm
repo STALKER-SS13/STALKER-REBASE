@@ -46,7 +46,7 @@
 	STOP_PROCESSING(SSmachines, src)
 	return ..()
 
-obj/machinery/campfire/barrel
+/obj/machinery/campfire/barrel
 	name = "barrel"
 	icon_state = "barrel0"
 	density = 1
@@ -78,10 +78,12 @@ obj/machinery/campfire/barrel
 	STOP_PROCESSING(SSmachines, src)
 
 /obj/machinery/campfire/update_icon()
+	..()
 	icon_state = "campfire[active]"
 	return
 
 /obj/machinery/campfire/barrel/update_icon()
+	..()
 	icon_state = "barrel[active]"
 	return
 
@@ -105,7 +107,7 @@ obj/machinery/campfire/barrel
 			H.adjustFireLoss(-0.5)
 			H.adjustToxLoss(-0.5)
 
-obj/machinery/campfire/process()
+/obj/machinery/campfire/process()
 	if(!active)
 		STOP_PROCESSING(SSmachines, src)
 		return

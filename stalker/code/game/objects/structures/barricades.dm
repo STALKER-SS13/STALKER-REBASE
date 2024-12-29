@@ -3,7 +3,11 @@
 	var/debriss_type
 	var/loot = list()
 	var/lootcount = 0
-	var/list/hit_sounds = list('sound/weapons/genhit1.ogg', 'sound/weapons/genhit2.ogg', 'sound/weapons/genhit3.ogg')
+	var/list/hit_sounds = list(
+		'sound/items/weapons/genhit1.ogg',
+		'sound/items/weapons/genhit2.ogg',
+		'sound/items/weapons/genhit3.ogg'
+		)
 
 /obj/structure/barricade/stalker/take_damage(damage, leave_debris=1, message)
 	atom_integrity -= damage
@@ -139,6 +143,7 @@
 	icon_state = "block5l"
 
 /obj/structure/stalker/blocks/vanish/CanPass(atom/movable/mover, turf/target, height=0)//So bullets will fly over and stuff.
+	. = ..()
 	if(height==0)
 		return 1
 	if(istype(mover, /obj/projectile))

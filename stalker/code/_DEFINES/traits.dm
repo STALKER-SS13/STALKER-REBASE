@@ -8,5 +8,3 @@
 
 /// Trait given by entering an area
 #define AREA_TRAIT "area"
-/// Trait given by a spawner
-#define SPAWNER_TRAIT "spawner"

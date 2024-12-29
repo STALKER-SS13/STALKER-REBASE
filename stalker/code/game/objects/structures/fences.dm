@@ -14,11 +14,12 @@
 	resistance_flags = INDESTRUCTIBLE
 	var/proj_pass_chance = 80
 	var/list/connections = list("n" = FALSE, "s" = FALSE, "e" = FALSE, "w" = FALSE)
-	var/obj/structure/grille/fence/list/connected_obj = list("n" = null, "s" = null, "e" = null, "w" = null)
+	var/list/obj/structure/grille/fence/connected_obj = list("n" = null, "s" = null, "e" = null, "w" = null)
 	var/v_total = 0	// Total vertical connections
 	var/h_total = 0	// Total horizontal connections
 
 /obj/structure/grille/fence/CanPass(atom/movable/mover, turf/target, height=0)
+	. = ..()
 	if(istype(mover) && (mover.pass_flags == PASSGRILLE))
 		return TRUE
 	else if(istype(mover, /obj/projectile) && density)

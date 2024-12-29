@@ -1,5 +1,6 @@
 /obj/structure/bed/stalker
 	icon = 'stalker/icons/obj/structure/decor.dmi'
+	resistance_flags = INDESTRUCTIBLE
 
 /obj/structure/bed/stalker/metal
 	name = "bed"

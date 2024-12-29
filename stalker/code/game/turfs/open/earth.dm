@@ -41,8 +41,10 @@
 						new /obj/structure/flora/tree/jungle/small/style_random(get_turf(src))
 					if(9 to 10)
 						new /obj/structure/tree_stump(get_turf(src))
+			if(18 to 99)
+				return
 			if(100)
-				switch(rand(0, 11))
+				switch(rand(1, 11))
 					if (1)
 						new /obj/structure/flora/root/wild_potato(get_turf(src))
 					if (2)

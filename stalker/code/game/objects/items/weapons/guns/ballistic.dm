@@ -1728,6 +1728,7 @@
 	AddComponent(/datum/component/automatic_fire, rof)
 
 /obj/item/gun/ballistic/automatic/l6_saw/pkm/update_icon()
+	..()
 	icon_state = "PKM[cover_open ? "open" : "closed"][magazine ? 200 : "-empty"]"
 
 /obj/item/gun/ballistic/automatic/l6_saw/pkm/shottie

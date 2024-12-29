@@ -13,7 +13,7 @@
 	var/linked = FALSE
 	var/charge = 1000
 	var/active = FALSE
-	var/datum/stalker_pda_program/list/available_programs = list()
+	var/list/datum/stalker_pda_program/available_programs = list()
 	var/datum/stalker_pda_program/active_program
 
 /obj/item/stalker_pda/proc/set_owner(var/mob/living/carbon/human/_owner)

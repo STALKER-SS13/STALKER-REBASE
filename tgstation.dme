@@ -6521,6 +6521,8 @@
 #include "stalker\code\datums\stalker_pda\spda_program.dm"
 #include "stalker\code\game\area\_area.dm"
 #include "stalker\code\game\area\areas.dm"
+#include "stalker\code\game\areas\areas.dm"
+#include "stalker\code\game\machinery\autoexchange.dm"
 #include "stalker\code\game\machinery\stoves.dm"
 #include "stalker\code\game\machinery\vendors.dm"
 #include "stalker\code\game\machinery\doors\poddoor.dm"

@@ -12,7 +12,8 @@ GLOBAL_LIST_INIT(stalker_loot, create_stalker_loot_list())
 			for(var/i = 1; i <= datums.len, i++)
 				if(!datums[i])
 					datums[i] = list()
-		datums[datum.tier].Add(datum)
+		var/list/datum/tier_list = datums[datum.tier]
+		tier_list.Add(datum)
 	return datums
 
 /datum/stalker_loot

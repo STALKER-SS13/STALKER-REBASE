@@ -4,7 +4,7 @@
 	icon = 'stalker/icons/obj/structure/64x64.dmi'
 	icon_state = "well"
 	base_icon_state = "well"
-	resistance_flags = UNACIDABLE
+	resistance_flags = INDESTRUCTIBLE
 
 /obj/structure/water_source/wellsmall
 	name = "water well"
@@ -12,7 +12,7 @@
 	icon = 'stalker/icons/obj/structure/water_sources.dmi'
 	icon_state = "well"
 	base_icon_state = "well"
-	resistance_flags = UNACIDABLE
+	resistance_flags = INDESTRUCTIBLE
 
 /obj/structure/water_source/wellpump
 	name = "water pump"
@@ -20,4 +20,4 @@
 	icon = 'stalker/icons/obj/structure/water_sources.dmi'
 	icon_state = "waterpump"
 	base_icon_state = "waterpump"
-	resistance_flags = UNACIDABLE
+	resistance_flags = INDESTRUCTIBLE

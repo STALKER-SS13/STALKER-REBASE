@@ -13,7 +13,7 @@ GLOBAL_LIST_EMPTY(zona_artifacts)
 	/// Whether or not we have been picked up at least once
 	var/has_been_picked = FALSE
 	/// Effect used for detectors to detect us
-	var/mutable_appearance/detector_appearance
+	var/image/detector_appearance
 	/// Artifact armor we apply to the user when worn
 	var/datum/armor/artifact_armor
 

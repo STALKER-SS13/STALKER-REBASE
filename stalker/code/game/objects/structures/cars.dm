@@ -2,6 +2,7 @@
 	density = TRUE
 	anchored = TRUE
 	layer = OBJ_LAYER
+	resistance_flags = INDESTRUCTIBLE
 
 /obj/structure/broken_car/gryzovik
 	name = "Gruzovik"
