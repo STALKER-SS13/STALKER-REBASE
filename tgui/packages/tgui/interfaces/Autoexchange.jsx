@@ -1,4 +1,10 @@
-import { Button, Collapsible, Section, Stack } from 'tgui-core/components';
+import {
+  Button,
+  Collapsible,
+  LabeledList,
+  Section,
+  Stack,
+} from 'tgui-core/components';
 import { capitalize } from 'tgui-core/string';
 
 import { useBackend } from '../backend';
@@ -6,19 +12,39 @@ import { Window } from '../layouts';
 
 export const Autoexchange = (props) => {
   const { act, data } = useBackend();
-  const { categories = [], items = [], cfilter, buying = [] } = data;
+  const {
+    hasId,
+    uname,
+    umoney,
+    categories = [],
+    items = [],
+    cfilter,
+    buying = [],
+  } = data;
 
   return (
     <Window width={500} height={700} title={'Autoexchange'}>
-      <Window.Content>
+      <Window.Content scrollable>
         {/* All Sections */}
-        <Stack vertical fill>
-          {/* Categories & Items */}
+        <Stack fill vertical justify="space-between">
+          {/* User's Profile */}
           <Stack.Item>
-            <Stack>
+            <Section
+              title={'PROFILE - ' + (hasId ? uname.toUpperCase() : 'NULL')}
+            >
+              <LabeledList>
+                <LabeledList.Item label="money">
+                  {hasId ? '₽' + umoney : 'NULL'}
+                </LabeledList.Item>
+              </LabeledList>
+            </Section>
+          </Stack.Item>
+          {/* Categories & Items */}
+          <Stack.Item grow>
+            <Stack fill>
               {/* Categories */}
-              <Stack.Item>
-                <Section title="CATEGORIES">
+              <Stack.Item width="25%">
+                <Section title="CATEGORIES" fill style={{ overflow: 'auto' }}>
                   {categories.map((category) => {
                     if (category.subcategories !== null) {
                       return (
@@ -56,8 +82,9 @@ export const Autoexchange = (props) => {
                 </Section>
               </Stack.Item>
               {/* Items */}
-              <Stack.Item grow>
+              <Stack.Item grow style={{ overflow: 'auto' }}>
                 <Section
+                  fill
                   title={
                     cfilter === ''
                       ? 'ALL CATEGORIES'
@@ -74,37 +101,68 @@ export const Autoexchange = (props) => {
                         .includes(cfilter.toLowerCase()),
                     )
                     .map((item) => (
-                      <div>
-                        <Button
-                          content={item.name}
-                          onClick={() =>
-                            act('addItem', {
-                              item: item.path,
-                            })
-                          }
-                        />
-                      </div>
+                      <Stack height="24px">
+                        <Stack.Item grow>{item.name}</Stack.Item>
+                        <Stack.Item>
+                          <Button
+                            content={'₽' + item.value}
+                            color="good"
+                            onClick={() =>
+                              act('addBuy', {
+                                item: item.path,
+                              })
+                            }
+                          />
+                        </Stack.Item>
+                      </Stack>
                     ))}
                 </Section>
               </Stack.Item>
             </Stack>
           </Stack.Item>
           {/* Exchange */}
-          <Stack.Item>
-            <Stack style={{ height: '20vh' }}>
+          <Stack.Item height="25%">
+            <Stack fill>
               {/* Sell */}
               <Stack.Item grow>
-                <Section title="SELL" fill>
-                  <div>{}</div>
-                </Section>
+                <Stack vertical fill>
+                  <Stack.Item>
+                    <Section title="SELL" fitted />
+                  </Stack.Item>
+                  <Stack.Item grow>
+                    <Section fill style={{ overflow: 'auto' }}>
+                      <div>{}</div>
+                    </Section>
+                  </Stack.Item>
+                </Stack>
               </Stack.Item>
               {/* Purchase */}
               <Stack.Item grow>
-                <Section title="PURCHASE" fill>
-                  {buying.map((item) => (
-                    <div>{item.name}</div>
-                  ))}
-                </Section>
+                <Stack vertical fill>
+                  <Stack.Item>
+                    <Section title="BUY" fitted />
+                  </Stack.Item>
+                  <Stack.Item grow>
+                    <Section fill style={{ overflow: 'auto' }}>
+                      {buying.map((item) => (
+                        <Stack height="24px">
+                          <Stack.Item grow>{item.name}</Stack.Item>
+                          <Stack.Item>
+                            <Button
+                              content={'₽' + item.value}
+                              color="bad"
+                              onClick={() =>
+                                act('removeBuy', {
+                                  item: item.path,
+                                })
+                              }
+                            />
+                          </Stack.Item>
+                        </Stack>
+                      ))}
+                    </Section>
+                  </Stack.Item>
+                </Stack>
               </Stack.Item>
             </Stack>
           </Stack.Item>

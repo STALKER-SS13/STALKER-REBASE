@@ -62,7 +62,14 @@
 
 /obj/structure/autoexchange/ui_data(mob/user)
 	var/list/data = list()
-	//data["money"] = "[profile.money]"
+	if(ishuman(user))
+		var/mob/living/carbon/human/H = user
+		var/obj/item/stalker_pda/spda = H.wear_id
+		if(spda && istype(spda) && spda.profile)
+			data["hasId"] = TRUE
+			data["uname"] = spda.profile.name
+			data["umoney"] = spda.profile.money
+
 	data["categories"] = categories_js
 	data["items"] = items_js
 
@@ -90,7 +97,7 @@
 		var/category = params["category"]
 		usr_data["[usr]"]["category"] = category
 
-	if(action == "addItem")
+	if(action == "addBuy")
 		var/datum/stalker_loot/loot = text2path(params["item"])
 
 		if(!usr_data["[usr]"].Find("buying"))

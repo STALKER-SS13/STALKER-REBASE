@@ -58,7 +58,7 @@
 		/obj/item/restraints/handcuffs,
 		/obj/item/clothing/accessory/patch/mercenaries,
 	)
-	id_trim = /obj/item/stalker_pda
+	id = /obj/item/stalker_pda
 	uniform = STALKER_UNIFORM
 	belt = /obj/item/knife/tourist
 	suit = /obj/item/clothing/suit/hooded/kombez/mercenary
@@ -89,7 +89,7 @@
 		/obj/item/restraints/handcuffs,
 		/obj/item/clothing/accessory/patch/mercenaries,
 	)
-	id_trim = /obj/item/stalker_pda
+	id = /obj/item/stalker_pda
 	uniform = STALKER_UNIFORM
 	belt = /obj/item/knife/hunting
 	suit = /obj/item/clothing/suit/assaultmerc

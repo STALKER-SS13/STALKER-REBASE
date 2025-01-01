@@ -58,7 +58,7 @@
 		/obj/item/food/baton,
 		/obj/item/clothing/accessory/patch/freedom,
 	)
-	id_trim = /obj/item/stalker_pda
+	id = /obj/item/stalker_pda
 	uniform = STALKER_UNIFORM
 	belt = /obj/item/knife/tourist
 	suit = /obj/item/clothing/suit/hooded/kombez/sentinel_of_freedom
@@ -92,7 +92,7 @@
 		/obj/item/flashlight/seclite,
 		/obj/item/clothing/accessory/patch/freedom,
 	)
-	id_trim = /obj/item/stalker_pda
+	id = /obj/item/stalker_pda
 	uniform = STALKER_UNIFORM
 	belt = /obj/item/knife/hunting
 	suit = /obj/item/clothing/suit/hooded/kombez/wind_of_freedom

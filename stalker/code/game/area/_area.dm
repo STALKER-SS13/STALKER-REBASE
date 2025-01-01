@@ -2,7 +2,7 @@
 	name = "Strange Location"
 	icon = 'stalker/icons/area/areas.dmi'
 	icon_state = "away"
-	has_gravity = STANDARD_GRAVITY
+	default_gravity = STANDARD_GRAVITY
 	flags_1 = NONE
 	sound_environment = SOUND_ENVIRONMENT_CITY
 	requires_power = TRUE

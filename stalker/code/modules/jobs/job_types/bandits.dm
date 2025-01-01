@@ -69,7 +69,7 @@
 		/obj/item/flashlight/lantern,
 		/obj/item/clothing/accessory/patch/bandits
 	)
-	id_trim = /obj/item/stalker_pda
+	id = /obj/item/stalker_pda
 	uniform = STALKER_UNIFORM
 	belt = pick(
 		/obj/item/knife/tourist,
@@ -110,7 +110,7 @@
 		/obj/item/flashlight/seclite,
 		/obj/item/clothing/accessory/patch/bandits,
 	)
-	id_trim = /obj/item/stalker_pda
+	id = /obj/item/stalker_pda
 	uniform = STALKER_UNIFORM
 	belt = /obj/item/gun/ballistic/shotgun/bm16
 	suit = /obj/item/clothing/suit/hooded/kozhanka/bandit
@@ -139,7 +139,7 @@
 		/obj/item/flashlight/seclite,
 		/obj/item/clothing/accessory/patch/bandits,
 	)
-	id_trim = /obj/item/stalker_pda
+	id = /obj/item/stalker_pda
 	uniform = STALKER_UNIFORM
 	belt = pick(
 		/obj/item/knife/butcher,

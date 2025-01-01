@@ -48,7 +48,7 @@
 		/obj/item/flashlight/lantern,
 		/obj/item/food/kolbasa,
 	)
-	id_trim = /obj/item/stalker_pda
+	id = /obj/item/stalker_pda
 	uniform = STALKER_UNIFORM
 	belt = /obj/item/gun/ballistic/automatic/pistol/tt
 	suit = pick(

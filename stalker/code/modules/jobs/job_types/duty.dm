@@ -98,7 +98,7 @@
 	..()
 	back = null
 	backpack_contents = null
-	id_trim = /obj/item/stalker_pda
+	id = /obj/item/stalker_pda
 	uniform = /obj/item/clothing/under/suit/sidor
 	belt = /obj/item/gun/ballistic/automatic/pistol/cora
 	suit = /obj/item/clothing/suit/jacket/sidor
@@ -129,7 +129,7 @@
 		/obj/item/flashlight/seclite,
 		/obj/item/clothing/accessory/patch/duty,
 	)
-	id_trim = /obj/item/stalker_pda
+	id = /obj/item/stalker_pda
 	uniform = STALKER_UNIFORM
 	belt = /obj/item/knife/hunting
 	suit = /obj/item/clothing/suit/psz9d
