@@ -20,6 +20,7 @@ export const Autoexchange = (props) => {
     items = [],
     cfilter,
     buying = [],
+    exchange,
   } = data;
 
   return (
@@ -50,9 +51,15 @@ export const Autoexchange = (props) => {
                       return (
                         <Collapsible
                           title={capitalize(category.name.replace('_', ' '))}
+                          onOpen={() =>
+                            act('category', {
+                              category: category.name,
+                            })
+                          }
                         >
                           {category.subcategories.map((subcategory) => (
                             <Button
+                              ml="4px"
                               content={capitalize(
                                 subcategory.name.replace('_', ' '),
                               )}
@@ -144,7 +151,7 @@ export const Autoexchange = (props) => {
                   </Stack.Item>
                   <Stack.Item grow>
                     <Section fill style={{ overflow: 'auto' }}>
-                      {buying.map((item) => (
+                      {buying.map((item, index) => (
                         <Stack height="24px">
                           <Stack.Item grow>{item.name}</Stack.Item>
                           <Stack.Item>
@@ -153,7 +160,7 @@ export const Autoexchange = (props) => {
                               color="bad"
                               onClick={() =>
                                 act('removeBuy', {
-                                  item: item.path,
+                                  itemIndex: index + 1,
                                 })
                               }
                             />
@@ -165,6 +172,18 @@ export const Autoexchange = (props) => {
                 </Stack>
               </Stack.Item>
             </Stack>
+          </Stack.Item>
+          {/* Complete Transaction*/}
+          <Stack.Item>
+            <Section>
+              <Button
+                width="100%"
+                textAlign="center"
+                color="good"
+                content={'Complete Transaction: ₽' + (exchange ? exchange : 0)}
+                onClick={() => act('completeTransaction')}
+              />
+            </Section>
           </Stack.Item>
         </Stack>
       </Window.Content>

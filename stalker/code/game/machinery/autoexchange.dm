@@ -62,6 +62,8 @@
 
 /obj/structure/autoexchange/ui_data(mob/user)
 	var/list/data = list()
+
+	// Input User's PDA Data
 	if(ishuman(user))
 		var/mob/living/carbon/human/H = user
 		var/obj/item/stalker_pda/spda = H.wear_id
@@ -70,15 +72,20 @@
 			data["uname"] = spda.profile.name
 			data["umoney"] = spda.profile.money
 
+	// Input Formatted Items & Categories
 	data["categories"] = categories_js
 	data["items"] = items_js
 
+	// Input "usr_data" Data
 	data["cfilter"] = ""
 	if(usr_data.Find("[user]"))
 		if(usr_data["[user]"].Find("category"))
 			data["cfilter"] = usr_data["[user]"]["category"]
 		if(usr_data["[user]"].Find("buying"))
 			data["buying"] = usr_data["[user]"]["buying"]
+		if(usr_data["[user]"].Find("exchange"))
+			data["exchange"] = usr_data["[user]"]["exchange"]
+
 	return data
 
 /obj/structure/autoexchange/ui_close(mob/user)
@@ -90,13 +97,16 @@
 	if(.)
 		return
 
+	// Add User
 	if(!usr_data.Find("[usr]"))
 		usr_data["[usr]"] = list()
 
+	// Select Category & Subcategory
 	if(action == "category")
 		var/category = params["category"]
 		usr_data["[usr]"]["category"] = category
 
+	// Add Item to Purchase List
 	if(action == "addBuy")
 		var/datum/stalker_loot/loot = text2path(params["item"])
 
@@ -105,7 +115,79 @@
 		var/list/L = usr_data["[usr]"]["buying"]
 		L.Add(list(
 			list(
+				"path" = "[loot]",
 				"name" = initial(loot.name),
-				"value" = "[initial(loot.value)]"
+				"value" = initial(loot.value)
 				)
 			))
+		if(!usr_data["[usr]"].Find("exchange"))
+			usr_data["[usr]"]["exchange"] = 0
+		usr_data["[usr]"]["exchange"] += initial(loot.value)
+
+	// Remove Item From Purchase List
+	if(action == "removeBuy")
+		var/datum/stalker_loot/loot = text2path(usr_data["[usr]"]["buying"][params["itemIndex"]]["path"])
+		usr_data["[usr]"]["exchange"] -= initial(loot.value)
+		var/list/list/buy_list = usr_data["[usr]"]["buying"]
+		buy_list.Cut(params["itemIndex"], params["itemIndex"]+1)
+
+	// Sell and Buy Selected Items
+	if(action == "completeTransaction" && ishuman(usr))
+		var/mob/living/carbon/human/H = usr
+
+		if(!length(usr_data["[usr]"]["buying"]))
+			return
+
+		var/cost = 0
+		var/list/obj/item/item_paths = list()
+		if(usr_data.Find("[usr]") && usr_data["[usr]"].Find("buying"))
+			for(var/item_data in usr_data["[usr]"]["buying"])
+				cost += item_data["value"]
+				var/datum/stalker_loot/loot = text2path(item_data["path"])
+				item_paths.Add(initial(loot.item_path))
+
+		var/obj/item/stalker_pda/spda = H.wear_id
+		if(!spda || !istype(spda) || !spda.profile)
+			to_chat(H, span_warning("You need a logged in PDA in your ID slot!"))
+			return
+		var/datum/stalker_profile/sprofile = spda.profile
+
+		if(sprofile.money < cost)
+			to_chat(H, span_warning("You do not have enough funds for this purchase!"))
+			return
+
+		var/lp_w_class = 0	// Largest purchase weight class
+		if(H.back || (length(usr_data["[usr]"]["buying"]) && !H.held_items[H.active_hand_index]))
+			var/datum/storage/bas = H.back.atom_storage	// Back atom_storage (bas).
+			var/purchase_weight = 0
+			var/purchase_slots = 0
+			var/oversized_items = 0
+			for(var/ipath in item_paths)
+				var/obj/item/item = ipath
+				var/i_w_class = initial(item.w_class)
+				if(!lp_w_class || i_w_class > lp_w_class)
+					lp_w_class = i_w_class
+				purchase_weight += i_w_class
+				if(i_w_class > bas.max_specific_storage)
+					oversized_items++
+			if(!H.held_items[H.active_hand_index])
+				purchase_weight -= lp_w_class
+				oversized_items--
+			if(oversized_items > 0)
+				to_chat(H, span_warning("You have [oversized_items] oversized item[(oversized_items > 0) ? "s" : ""]."))
+				return
+			if(purchase_weight > (bas.max_total_storage - bas.get_total_weight()))
+				to_chat(H, span_warning("Your backpack is too overburdened for this purchase!"))
+				return
+			if(purchase_slots > (bas.max_slots - bas.real_location.contents.len))
+				to_chat(H, span_warning("Your backpack does not have enough slots for this purchase!"))
+				return
+
+		sprofile.money -= cost
+		usr_data["[usr]"]["buying"] = list()
+		for(var/ipath in item_paths)
+			var/obj/item/i = new ipath(drop_location())
+			if(!H.held_items[H.active_hand_index] && initial(i.w_class) >= lp_w_class)
+				H.put_in_hands(i)
+			else
+				H.back.atom_storage.attempt_insert(i, usr, messages = FALSE)
